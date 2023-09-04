@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="Absolute_H%C3%A4ufigkeit_conversion.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exemplarische Annotation von Alltagsthemen einiger Exemplare des Konvoluts
+               LB_01048 aus den Jahren 1946-47</title>
+            <respStmt>
+               <resp>Transkription und Kodierung der Briefe wurden vorgenommen von</resp>
+               <name>
+                  <forename>Maja</forename>
+                  <surname>Bartl</surname>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Zentrum für Informationsmodellierung</publisher>
+            <pubPlace>Graz</pubPlace>
+            <date when="2023">2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="corpus" xml:lang="de">
+               <title>Liebesbriefe von Herbert und Anna Stumpe</title>
+               <author>
+                  <name>
+                     <forename>Herbert</forename>
+                     <surname>Stumpe</surname>
+                  </name>
+               </author>
+               <author>
+                  <name>
+                     <forename>Anna</forename>
+                     <surname>Stumpe</surname>
+                  </name>
+               </author>
+               <date from="1946-05-03">3.5.1946</date>
+               <date to="1947-10-04">4.10.1947</date>
+               <idno type="global">LB_01048</idno>
+               <orgName>Liebesbriefarchiv Koblenz/Darmstadt</orgName>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="P_AS">
+            <persName>
+               <forename>Anna</forename>
+               <surname>Stumpe</surname>
+               <roleName>Ehefrau</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_HS">
+            <persName>
+               <forename>Herbert</forename>
+               <surname>Stumpe</surname>
+               <roleName>Ehemann</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_MS">
+            <persName>
+               <name>Mutter</name>
+               <surname>Stumpe</surname>
+               <roleName>Mutter von Herbert</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_TH">
+            <persName>
+               <name>Tante</name>
+               <forename>Hedwig</forename>
+               <roleName>Tante von Herbert</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_B">
+            <persName>
+               <forename>Bruno</forename>
+            </persName>
+         </person>
+         <person xml:id="P_K">
+            <persName>
+               <forename>Käthel</forename>
+            </persName>
+         </person>
+         <person xml:id="P_M">
+            <persName>
+               <forename>Maria</forename>
+            </persName>
+         </person>
+         <person xml:id="P_FB">
+            <persName>
+               <title>Frau</title>
+               <surname>Böhm</surname>
+            </persName>
+         </person>
+         <person xml:id="P_G">
+            <persName>
+               <forename>Georg</forename>
+            </persName>
+         </person>
+         <person xml:id="P_Bä">
+            <persName>
+               <forename>Bärbel</forename>
+            </persName>
+         </person>
+         <person xml:id="P_L">
+            <persName>
+               <forename>Lielo</forename>
+            </persName>
+         </person>
+         <person xml:id="P_FH">
+            <persName>
+               <title>Familie</title>
+               <surname>Haamann</surname>
+            </persName>
+         </person>
+         <person xml:id="P_GS">
+            <persName>
+               <forename>G.</forename>
+               <surname>Schulze</surname>
+            </persName>
+         </person>
+         <person xml:id="P_HGB">
+            <persName>
+               <title>Hauptgefr.</title>
+               <surname>Brauer</surname>
+            </persName>
+         </person>
+         <person xml:id="P_SK">
+            <persName>
+               <title>Schwester</title>
+               <surname>Klärchen</surname>
+            </persName>
+         </person>
+         <person xml:id="P_KL">
+            <persName>
+               <forename>Käthel</forename>
+               <surname>Lissel</surname>
+            </persName>
+         </person>
+         <person xml:id="P_GM">
+            <persName>
+               <forename>Grete</forename>
+               <surname>März</surname>
+            </persName>
+         </person>
+         <person xml:id="P_EB">
+            <persName>
+               <forename>Erika</forename>
+               <surname>Brieger</surname>
+               <roleName>Ehefrau von Oskar</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_OB">
+            <persName>
+               <forename>Oskar</forename>
+               <surname>Brieger</surname>
+               <roleName>Ehemann von Erika</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_Li">
+            <persName>
+               <forename>Liesel</forename>
+            </persName>
+         </person>
+         <person xml:id="P_R">
+            <persName>
+               <forename>Regiena</forename>
+               <roleName>Tochter von Käthel</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_F">
+            <persName>
+               <forename>Franz</forename>
+               <roleName>Ehemann von Käthel</roleName>
+            </persName>
+         </person>
+         <person xml:id="P_ElB">
+            <persName>
+               <forename>Elisabeth</forename>
+               <surname>Bialucha</surname>
+            </persName>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="O_HS">
+            <placeName>Halle/Saale</placeName>
+            <country>Deutschland</country>
+            <idno type="URI">https://d-nb.info/gnd/4023025-9</idno>
+         </place>
+         <place xml:id="O_St">
+            <placeName>Stefanow</placeName>
+            <placeName>Stephansdorf</placeName>
+            <placeName>Szczepanów</placeName>
+            <country>Polen</country>
+            <idno type="URI">https://d-nb.info/gnd/1221616404</idno>
+         </place>
+         <place xml:id="O_F">
+            <placeName>Finnland</placeName>
+            <country>Finnland</country>
+            <idno type="URI">https://d-nb.info/gnd/4017243-0</idno>
+         </place>
+         <place xml:id="O_Su">
+            <placeName>Sudetengau</placeName>
+            <placeName>Sudetenland</placeName>
+            <country>Tschechien</country>
+            <idno type="URI">https://d-nb.info/gnd/4058390-9</idno>
+         </place>
+         <place xml:id="O_Ha">
+            <placeName>Hannover</placeName>
+            <country>Deutschland</country>
+            <idno type="URI">https://d-nb.info/gnd/16309770-7</idno>
+         </place>
+         <place xml:id="O_Ka">
+            <placeName>Kammerswaldau</placeName>
+            <placeName>Komarno</placeName>
+            <country>Deutschland</country>
+            <idno type="URI">https://d-nb.info/gnd/4645972-8</idno>
+         </place>
+      </listPlace>
+      <list type="category">
+         <item xml:id="K_Ar">
+            <name>Arbeit</name>
+            <desc>Diese Kategorie umfasst jegliche Inhalte, die sich mit den Themen 'Erwerbsarbeit'
+               oder 'Überlebensarbeit' auseinandersetzen.</desc>
+         </item>
+         <item xml:id="K_Fr">
+            <name>Freizeit</name>
+            <desc>Diese Kategorie umfasst jegliche Inhalte, die sich mit der Freizeitgestaltung der
+               Korrespondenten auseinandersetzen.</desc>
+         </item>
+         <item xml:id="K_Fe">
+            <name>Festtage</name>
+            <desc>Diese Kategorie umfasst jegliche Inhalte, die sich mit Festen und Feierlichkeiten
+               außerhalb der allgemeinen Alltäglichkeiten beschäftigen.</desc>
+         </item>
+         <item xml:id="K_KR">
+            <name>Kriegsreferenzen</name>
+            <desc>Diese Kategorie umfasst jegliche Inhalte, die sich mit der Erinnerung an den Krieg
+               beschäftigen.</desc>
+         </item>
+         <item xml:id="K_Ve">
+            <name>Versorgung</name>
+            <desc>Diese Kategorie umfasst jegliche Inhalte, die mit der Versorgung der grundlegenden
+               Bedürfnisse wie Essen, Trinken, Wärme etc. zusammenhängen.</desc>
+         </item>
+         <item xml:id="K_Ge">
+            <name>Gesundheit</name>
+            <desc>Diese Kategorie umfasst jegliche Inhalte, die sich mit dem Gesundheitszustand der
+               betreffenden Menschen oder deren Bekannten auseinandersetzen.</desc>
+         </item>
+         <item xml:id="K_ZW">
+            <name>Zuhause/Wohnen</name>
+            <desc>Diese Kategorie umfasst jegliche Inhalte, die sich mit dem Thema Heim und Wohnen
+               auseindersetzen.</desc>
+         </item>
+      </list>
+   </standOff>
+   <!-- In den ersten Briefen werden sämtliche wichtige Informationen annotiert. Dies schließt Namen (+Kosenamen), Orte und Daten mit ein. -->
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0002">
+            <pb n="1"/><span target="#K_Ar">Morgen
+               Sonntag gehe ich zur Arbeit von 6-12 Uhr früh.</span><opener><lb/>No. 36 <dateline
+                  rend="right"><placeName ref="#O_HS">Halle/ Saale</placeName>, den <date
+                     when="1947-02-01">1.2.1947</date></dateline>
+               <salute><lb/><name type="sub" ref="#P_AS">Mein geliebtes
+               Frauchen!</name></salute></opener>
+            <p>
+               <lb/>Heute machte mir dein <lb/>liebes <rs type="letter" ref="#LB_01048_0030"
+                  >Brieflein No.21</rs> vom <date when="1947-01-12">12. Januar</date> eine
+               <lb/>grosse Freude. Als ich <span target="#K_Ar">gegen 1/23 von der <lb/>Arbeit
+                  kam</span> lag es auf dem Tisch und <lb/>noch ein Brief von <persName ref="#P_TH"
+                  >Tante Hedwig</persName>! <lb/>Stürzte mich gleich darüber her um <lb/>zu wissen
+               wie es Euch, meinen Lieben, <lb/>geht und <span target="#K_Ge">ob ihr alle gesund und
+                  <lb/>munter seid</span>! Nun bin ich ja beruhigt <lb/>und habe deine Grüsse an
+                  <persName ref="#P_TH">Tante <lb/>Hedwig</persName> schon bestellt. Auch sie lässt
+               <lb/>grüssen und <span target="#K_Fr">ich schreibe gleich an <lb/>beide</span> wieder
+               zurück. Hier trift sich <lb/>immer alle Post, kommst du denn <lb/>nicht bald selbst?
+               Ich kanns schon garnicht <pb n="2"/><lb/>erwarten, denn so allein ist das Leben
+               <lb/>nicht leicht. Muss immer so allein sein, <lb/>wenn du und <persName ref="#P_MS"
+                  >Mutti</persName> mit hier waren! <lb/>Möchte es nun viel besser sein! Wir
+               <lb/>kämen schon aus, bitte dich jetzt recht <lb/>herzlich, wenns möglich ist komme
+               <lb/>sobald es geht! Verliere recht oft die Lust <lb/>und nun kommt <persName
+                  ref="#P_TH">Tante Hedwig</persName> noch <lb/>mit Vorschlagen die ich aber um
+               meiner <lb/>lieben Frau wegen nicht annehmen <lb/>kann! Soll mit ihr nach dem Westen
+               <lb/>in <persName ref="#P_K">Käthels</persName> Nähe, soll <span target="#K_Ar">mit
+                     <persName ref="#P_M">Maria</persName> auf Arbeit <lb/>gehen</span> und sie
+                  <span target="#K_ZW">möchte uns den Haus= <lb/>halt machen</span>! Ja, wenn ich
+               ledig wäre, <lb/>dann hätte ich aber längst eine Frau, <lb/>wäre es anders, aber so
+               geht es nicht. <lb/>Obendrein aber habe ich langsam <lb/>satt immer und immer wieder
+               fremde <lb/>Leute zu bitten um einen jeden Hand= <lb/>griff. Auch habt Ihr, du und
+                  <persName ref="#P_MS">Mutti</persName>
+               <lb/><span target="#K_Ar">genug gearbeitet</span>, für nichts und wieder <lb/>nichts,
+               hier sollt Ihr Euch ausruhen, <pb n="3"/><lb/>im Sommer könntet Ihr ja beim Bauern
+               <lb/>helfen, wenigstens du oder mit <persName ref="#P_MS">Mutti</persName>
+               <lb/><span target="#K_Ar">“Stoppeln” gehen</span>! Es würde schon reichen <lb/>und
+               jeder von uns hätte seine Ordnung! <lb/><span target="#K_ZW">Über unsere
+                  Heimat</span> wird sich so gleich <lb/>nichts entscheiden, also wenns geht
+               <lb/>kommt sobald es warm wird. Jetzt habe <lb/>ich noch <span target="#K_ZW">ein
+                  schönes Zimmer</span>, wenn <lb/>aber <span target="#K_KR">mehr Flüchtlinge
+                  kommen</span> dann <lb/>setzt man mich raus und kann <lb/>dann von "Neuem"
+               anfangen mit <lb/>der "Sucherei". Leicht ist es aber nicht <lb/>und ich habe auch
+               keine Lust weiter <lb/>dazu. Dann ist mir alles gleich mag <lb/>dann kommen was will!
+               Könnte <lb/>recht oft alles zusammen schlagen und <lb/>in solcher Stimmung <span
+                  target="#K_Fr">schrieb ich auch <lb/><persName ref="#P_MS">Mutti</persName> einen
+                  Brief</span>. Hoffentlich ist Sie <lb/>mir nicht all zu böse, bin ja sehr komisch
+               <lb/>gewesen, gelt? </p>
+            <p><lb/>Sonst geht's mir danke. Nachdem <lb/>der Brief fertig ist <span target="#K_Ve"
+                  >gehe ich Kohle mausen</span>, <lb/>Muss doch <span target="#K_Ve">etwas zum
+                  Kochen holen</span>. <pb n="4"/><lb/><span target="#K_Ve">Die Zuteilung reicht
+                  nicht weit</span> und <lb/>so muss ich andauernd fremden Leuten <lb/>ein warmes
+               Zimmer bereiten und Ihr? <lb/><span target="#K_Ge">Ihr habts kalt und werdet
+                  krank.</span></p>
+            <p><lb/>Den Ärger aber haben wir im späteren <lb/>Leben, und so mache ich nicht mehr
+               <lb/>mit. Bitte kommt sobald die Trans= <lb/>porte wieder gehen mit, alles andere
+               <lb/>findet sic h schon. <span target="#K_Ve">Bringt Kleider und <lb/>etwas Wäsche
+                  mit, Bettwäsche, Handtücher</span>, <lb/>eben was Ihr dürft und tragen könnt!</p>
+            <p><lb/>Auch die <span target="#K_Fr">Papiere, Sparbüchsen und wenn`s <lb/>geht, meine
+                  Bücher</span>, welche ich von <placeName ref="#O_F">Finnland</placeName>
+               <lb/>sandte! Es ist ein grosses mit starkem Einband <lb/>habt Ihrs noch? Wenn nicht
+               schadets nichts, <lb/>hätte es aber gerne als Andenken!</p>
+            <p><lb/>Hoffen wir auch, dass sich <persName ref="#P_B">Bruno</persName> noch meldet,
+               <lb/>obwohl ich wenig Hoffnung habe, erzähle später <lb/>mal etwas mehr, gelt, Möge
+               der Herrgott seinen <lb/>Weg segnen und ihn uns bald schenken.</p>
+            <closer><salute><lb/>So hoffe auch ich, dass Ihr bald hier eintrudelt <lb/>und verbleibe
+                  mit vielen herzlichen <lb/>Grüssen und Küssen immer dein <lb/>Manne</salute>
+               <signed><persName ref="#P_HS">Herbert</persName></signed>! <salute>Grüss Gott und auf
+                  <lb/>Wiedersehen!</salute><salute rend="top">Herzliche Grüsse an Mutti und Frau Jähnel.</salute></closer>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0006">
+            <pb n="1"/>
+            <opener><lb/>No.47 <dateline>Halle/ Saale, den 21.6.47</dateline>
+               <lb/>Komme bitte bald, habe grosse <lb/>Sehnsucht! <salute><lb/>Liebes Frauchen,
+                  liebe Mutti!</salute></opener>
+
+            <p><lb/>Nachdem mein letzter Brief eigentlich <lb/>der letzte seine sollte, ehe ich
+               nicht Antwort habe, <lb/>kann ichs doch nicht übers Herz bringen und <span
+                  target="#K_Fr">muss <lb/>euch schnell einen kleinen Gruss senden</span>. Vorallem
+               <lb/>danken für deine lieben Briefe No.31 No.32 und <lb/>No.33. Sie kamen in
+               Abständen von 1 Woche an <lb/>und glaube mir, mein Liebling, <span target="#K_Fr"
+                  >wenn ich noch so <lb/>schreiben darf?</span> es hat mir auch manche Träne ge=
+               <lb/>kostet! Mir fällt es nicht weniger schwer als dir aber <lb/>es muss nun endlich
+               sein, entweder so oder so! Einmal <lb/>muss sich eine Abfahrt erzwingen lassen warum
+               <lb/>wohl gehts bei den Anderen andauernd? Sind <lb/>wir denn nur geplagte und
+               gequälte Menschen?</p>
+            <p><lb/>Muss es beinah annehmen, es hat doch aber alles <lb/>Jammern keinen Zweck!
+               Jedenfalls mache ich <lb/>so nicht mehr mit. <span target="#K_ZW">Ich möchte endlich
+                  was <lb/>Neues aufbauen</span>, mir eine Existenz schaffen <lb/>und nicht das
+               ganze Leben so einsam ver= <lb/>bringen. Man wird immer älter und kommt <lb/>ins alte
+               Eisen, ehe man Kinder haben darf <lb/>und sich ab ihnen freuen darf und kann <pb
+                  n="2"/>
+               <lb/><span target="#K_ZW">Auch wirds hier mit Wohnungen immer schlechter</span> und
+                  <lb/><span target="#K_Ge">ich gehe dabei kaputt</span>. <span target="#K_Ar">Für
+                  wen arbeite ich überhaupt?</span>
+               <lb/><span target="#K_Ar">Warum arbeite ich</span>. Um zusehen zu müssen wie
+               <lb/>andre sich was schaffen und glücklich sind! - </p>
+            <p><lb/>Manches Mal könnte ich ins Wasser gehen oder mich <lb/>vom Baugerüst stürzen vor
+               Verzweiflung, die Frau= <lb/>en der Männer kommen, <span target="#K_Ve">bringen das
+                  Essen</span> und ich! <lb/>Nah, Herr Stumpe, wann kommt Ihre Frau, was ist eigend-
+               <lb/>lich los, <span target="#K_ZW">was macht Ihr Heim, ihre Kocherei</span> und so
+               weiter <lb/>und sofort. Jeden Tag das gleiche glaubst du, dass mir <lb/>dies nicht
+               auf die Nerven geht? <span target="#K_Ve">Am Abend dann gehts <lb/>in die Stadt,
+                  Gemüse einkaufen</span>, ja tut uns Leid, da <lb/>müssen sie früh kommen, <span
+                  target="#K_KR">jetzt ist alles ausverkauft</span>. <lb/>Aufheben können wir nichts
+               es wären zu viele Kunden, <lb/>vielleicht bringt Ihnen mal jemand anderes etwas
+               <lb/>mit! Aber wer ist dieser Andere. So ist ein jeder gezwungen <lb/>eine Frau
+               anzuschaffen, und ich bin auf dem besten <lb/>Wege dazu. Mag nicht mehr lügen. <span
+                  target="#K_Ge">120 Zt wiege ich <lb/>noch</span> und 168 bis 712 hatte ich mal.
+               Die Verkäuferin <lb/>die mir was aufhob <span target="#K_Ge">ist mit 22 Jahren, an
+                  Hirnhaut= <lb/>entzündung gestorben</span>, <span target="#K_KR">auch ein
+                  Flüchtling</span>, und nun <lb/>ist`s aus.</p>
+            <p><lb/><span target="#K_Fe">Heute ist nun Sonntag</span>, <span target="#K_Fr">wollte
+                  in die Kirche <lb/>gehen</span>, aber es regnete in Strömen, also ist’s die
+               <lb/>7te Woche wo ich nicht mehr war! Warum auch, der <lb/>Herrgott erhörte mich ja
+               noch nie, wenn ich auch 3 <lb/>oder 4 mal gegangen bin! <span target="#K_Fe">Zu der
+                  Maiandacht jeden 2ten <lb/>Abend</span>, müsste nur so rasen um rumzukommen
+                  <lb/><span target="#K_Ar">da wir erst um 5 Abends fertig waren</span> und um
+               <lb/>1/2 7 war sie oder um 7. <span target="#K_Ve">Zwischendurch alles
+                  besorgen</span>, <lb/>das soll man einer nach machen! <span target="#K_ZW">Heute
+                  werde <lb/>ich noch Wäsche waschen</span>, vielleicht auch dem Mädel hin=
+               <lb/>schaffen sie wills tun für mich, will mal sehen wie es <lb/>wird!</p>
+
+            <closer><lb/>Wie gehts Mutti und <span target="#K_Ge">was macht dein Bein?</span> Ist
+               alles in Ordnung? Ich bin einiger= <lb/>massen munter. Habe nur grosse Sehnsucht!! -
+                  <salute>Herzliche Grüsse sendet euer Herbert.</salute></closer>
+
+            <postscript>
+               <ab><lb/><span target="#K_Ve">Leider habe ich kein Papier mehr</span> schreibe sonst
+                  noch mehr. <span target="#K_KR">Georg kam aus Frankreich zurück</span>, Barbara
+                  <lb/>ist in Thüringen, Tante bei <unclear/>, aber noch kein Stammhalter da. Ist
+                  alles munter. Soll schön grüssen</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0007">
+            <pb n="1"/>
+            <opener><lb/>No 49 <dateline>Halle/ Salle, den 2.August 1947</dateline>
+               <salute><lb/>Meine liebe Anna!</salute></opener>
+
+            <p><lb/>Heute nun will ich dir für deinen lieben <lb/>Brief No 36 vom 7.7.47 danken, es
+               ist schon lange her, dass <lb/>er eintraf, aber ich kann nunmal nicht dafür, habe
+               <lb/>am Leben fast den Mut und Glauben verloren und <lb/>da du nicht kommst muss ich
+               eben sehen, wie ich <lb/>alleine durchkomme! Jammern hat keinen Zweck <lb/>mehr,
+                  <span target="#K_Fe">es soll ja ein Geburtstagsbrief werden</span>, und <lb/>daher
+               möchte ich meine Verbitterung nicht so durch= <lb/>blicken lassen, möchte dir Tränen
+               und Schmerzen <lb/>ersparen. Leider ist es <span target="#K_Fe">schon der 2.
+                  Geburtstag</span> den du <lb/>verleben musst <span target="#K_KR">seitdem ich Heim
+                  bin</span>, und noch <lb/>immer sind wir nicht zusammen! Sind ja eben
+               <lb/>Unmenschen die der Herrgott bestrafen muss, <span target="#K_KR">alle anderen
+                  <lb/>sind fast heraus</span> nur Ihr noch nicht. Gebe auch jegliche
+               <lb/>Hoffnungen auf, ich muss mir doch Glück und Segen <lb/>nicht verdient haben!</p>
+            <p><lb/>Ach all dies sind so meine täglichen Sorgen, aber auch dies <lb/>Muss vorbei
+               gehen, ich <span target="#K_Fr">war jetzt wieder bei meinen Cusinen</span>, <lb/>in
+               Löhlen, <span target="#K_Ar">half bei einem Bauern in der Ernte</span> und <span
+                  target="#K_Ve">bekam <lb/>1/2 Zentner Korn, später auch noch paar
+                  Kartoffeln</span>, es <lb/>war mir eine grosse Hilfe, denn <span target="#K_Ve">45
+                  Zt Mehl sind heute in <lb/>Deutschland ein kl. Vermögen</span>! Es waren <span
+                  target="#K_Fr">6 Tage Urlaub</span>
+               <lb/>und nun folgen noch 6. Fahre am Montag den 4.8, <span target="#K_Fr">zur
+                  <lb/>Käthel an die holländische Grenze</span>, bekam einen <lb/>Patenbrief und
+               will meine Schwestern, Tante Hedwig <lb/>und alle Verwa ndten mal wiedersehen! <span
+                  target="#K_ZW">Es ist doch <lb/>jetzt schon ein Täubchen dazugekommen</span> und
+               bei <lb/>der Monika stehe ich und Cusine Martel Pate.</p>
+            <pb n="2"/>
+            <p><lb/>Freue mich schon so sehr auf dieses Wiedersehen, <lb/>denn auch Barbara werde
+               ich dort sehen und <lb/>sprechen können, deinen Cusinen ihre Eltern <lb/>sind auch
+               herausgekommen. Nährigs aus Leitendorf <lb/>du die <span target="#K_KR">haben sich
+                  solche Zustände in Deutschland <lb/>nicht vorgestellt</span>. Waren ganz paw <span
+                  target="#K_Ve">das hier eine <lb/>regelrechte Hungersnot</span> ist, glaubten es
+               sei alles so <lb/><span target="#K_KR">auf Marken wie während dem Kriege</span> und
+               sind nun <lb/>bitter bitter enttäuscht. Es gab viel zu erzählen und zu allem
+               <lb/>Überfluss kam eine <span target="#K_KR">Todeserklärung aus Frankreich</span>. Es
+               <lb/>soll der Mann meiner Cusine Anna sein, welche <lb/><span target="#K_ZW">7 Kinder
+                  hat und für diese alleine aufkommen <lb/>muss</span>. <span target="#K_Fr">Werde
+                  heute Abend noch schreiben</span>, denn <lb/>wir glauben es nicht, er hat am
+               15.2.46 selbst geschrieben <lb/>und <span target="#K_KR">soll am 14.2.46 gestorben
+                  sein</span>. <span target="#K_KR">Jetzt meldet <lb/>sich ein Kamerad</span>, dass
+               er noch mit Oskar bis <lb/>März 1947 zusammen war, wir können nun sowas nicht
+               <lb/>denken. So geht es Schlag auf Schlag und bin <lb/>neugierig was ich im Westen
+               noch alles hören <lb/>werde und erleben muss!</p>
+            <p><lb/>Sonst gibts nicht von grosser Bedeutung, Georg <lb/>steckt auch in Deutschland
+               und hoffe ihn <lb/>bald zusehen!</p>
+            <closer><lb/>So will ich heute zum Schluss kommen. <lb/>Grüsse Mutti ganz besonders,
+               wünsche Ihr alles <lb/>Gute und ein baldiges Wiedersehen! <span target="#K_Ge">Wie
+                  gehts <lb/>Ihr überhaupt gesundheitlich?</span> Möchts beste hoffen, gell?
+               <lb/>Dir aber, liebe Anna sendet <span target="#K_Fe">zu deinem 28. Geburtstage
+                  <lb/>alles erdenklich Gute</span>, verbunden mit vielen herzl.
+                  <lb/><salute>Grüssen und Küssen <lb/>Dein <lb/>Herbert! <lb/>Auf ein baldiges
+                  Wiedersehen!</salute></closer>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0009">
+            <pb n="1"/>
+            <opener><dateline rend="right"><placeName ref="#O_St"><lb/>Stephansdorf</placeName>, den
+                     <date when="1946-05-03">3.5.46</date></dateline>
+               <lb/><salute><name type="sub" ref="#P_HS">Mein herzlieber
+               Männe!</name></salute></opener>
+
+            <p><lb/>Du kannst dir garnicht vorstellen, wie unsagbar <lb/>glücklich mich gestern
+               abend dein lb. Brief machte.</p>
+            <p><lb/>Ach, immer habe ich gebetet, dass wir uns recht bald wiedersehen <lb/>dürfen u.
+               gehofft u. geglaubt, dass die lb. Mutter Gottes <lb/>immer hilft. Und wenn auch meine
+               Bitte noch nicht so <lb/>erhört wurde wie ich es gern wünschte, so bin ich doch
+               <lb/>schon glücklich dich <name type="sub" ref="#P_HS">mein Liebling</name> gesund in
+               meiner <lb/>Näh zu wissen. Habe recht herzlichen dank für deine lb. <lb/>Zeilen,
+                  <span target="#K_Ge">die mich und <persName ref="#P_MS">Mutter</persName> gesund
+                  erreichten</span>. Ach ich <lb/>möchte ja sooo viel von dir wissen vor allem, wie
+               es dir geht? <lb/>Hoffe ja, dass ich alles andere dann auch bald mal erfahren
+               <lb/>darf! Wenn wir auch jetzt <span target="#K_KR">in keiner schönen Zeit
+                  leben</span> so muss <lb/>dies aber auch vorüber gehn u. der Herrgott wird schon
+               wissen, <lb/>wie er es recht macht gelt? Du <name type="sub" ref="#P_HS">mein lb.
+                  Herbert</name> bist also <lb/>in <placeName ref="#O_HS">h.</placeName> wie ich
+               sehe. Wie und wann bist du dahin gekommen? <lb/>Hast du da <persName ref="#P_FH"
+                  >Harmann’s</persName> getroffen? <span target="#K_Ar">Wie gefällt es dir an
+                  <lb/>deinem neuen Arbeitsplatz?</span> Und was magst du heute <lb/>wohl machen?
+                  <span target="#K_Fe">Hier ist Feiertag</span> und herliches Wetter!</p>
+            <p><lb/>Könntest du nicht bei mir sein? Aber gelt <name type="sub" ref="#P_HS"
+                  >Männe</name>, in <lb/>Gedanken sind wir uns nahe u. wollen es auch bleiben
+               <lb/>bist zum frohen Wiedersehen nicht wahr?</p>
+            <p><lb/><span target="#K_ZW">Jetzt sitze ich hier in unserm Stübchen</span> was noch <pb
+                  n="2"/><lb/>unverändert ist u. will dir etwas von mir erzählen. <lb/>Hast du <name
+                  type="sub" ref="#P_HS">lb Herbert</name> vorieges Jahr noch Post von mir be=
+               <lb/>kommen? Oder weist du noch garnicht, das wir am <lb/><date when="1945-01-26"
+                  >26.1.45</date> unsere <span target="#K_KR">Heimat verlassen musten und <date
+                     when="1945-03">anfang März</date>
+                  <lb/>zu Fuss im <placeName ref="#O_Su">Sudetengau</placeName> landeten</span>? Wir
+               waren dort in einer <lb/>schönen Gegend nur die Zeit zum froh sein zu ernst.
+                  <lb/><span target="#K_KR"><date when="1945-06">Anfang Juni</date> sind wir dann
+                  nachhause gewandert.</span></p>
+            <p><lb/>Glücklich gelandet, mussten wir 14 Tage später wieder <lb/>alle das Dorf
+               verlassen. 2 Wochen waren wir in <unclear/>
+               <lb/>und <span target="#K_ZW">durften dann nachhaus zurück</span>. <span
+                  target="#K_ZW">Das Dom. war <lb/>noch immer mit Russen belegt</span> u. <span
+                  target="#K_ZW"><persName ref="#P_MS">Mutti</persName> wohnt deshalb <lb/>auch heut
+                  noch bei mir</span>. Ich hatte aber in allen schweren <lb/>Stunden einen guten
+               Schutzengel, der mich vor der <lb/>R. Gefahr bewart hat. <span target="#K_Ge">Im
+                     <date when="1945-08">August</date> wurde ich krank.</span>
+               <lb/><span target="#K_Ge">Der Tipus brach hier aus</span> u. bei mir solte es wohl
+               auch <lb/>so sein. <span target="#K_Ge"><persName ref="#P_MS">Mutti</persName> gab
+                  sich grosse Mühe mich gesund zu <lb/>pflegen</span> u. durch Gottes Hilfe durfte
+               ich am <date when="1945-08-21">21. d. Mon.</date>
+               <lb/>schon das 1.x aufstehen. <span target="#K_Ge">Viele sind an dieser Krankheit
+                  <lb/>gestorben.</span> Dazu zählt auch <persName ref="#P_KL">Lissel
+                  Käthel</persName>, <persName ref="#P_GM">März Grete</persName>
+               <lb/>u. <persName ref="#P_EB">Brieger Erika</persName> also die Frau von <persName
+                  ref="#P_OB">Oskar</persName>! <span target="#K_Ar"><persName ref="#P_MS"
+                     >Mutti</persName> arbeitet meist <lb/>umsonst</span> aber mir gehts auch so.
+               Hier im Dorf sind <lb/>jetzt 1500 P. Auch hier im Haus! Aber <span target="#K_KR"
+                  >eine sehr nette <lb/>Familie die von den R. aus ihrer Heimat vertrieben
+                  <lb/>wurde</span>. Seid 1. Woche ist auch ein p. Geistlicher da. <lb/>Herr
+               Erzpriester freute sich sehr mit mir, als ich ihm <lb/>sagte, dass ich Post von dir
+               habe auch viele Bekannte u. <lb/><persName ref="#P_MS">Mutti</persName> nicht zu
+               vergessen.</p>
+            <p>
+               <pb n="3"/><lb/>Onkel u. Tante werden sich sicher auch sehr freuen. <lb/>Sie sind
+               noch wohl auf ebenso <persName ref="#P_Li">Liesel</persName> mit den Kindern.</p>
+            <p><lb/>Von <persName ref="#P_K">Käthel</persName> habe ich mehrmals Post. Sie ist jezt
+               <lb/>fast ein Jahr glückliche Mutti einer kl. blonden <persName ref="#P_R"
+                  >Regiena</persName>
+               <lb/>die ihr viel Freude bereitet. Und denke dir <name type="sub" ref="#P_HS"
+                  >Liebling</name>
+               <lb/>am <date when="1946-03-06">6.3.</date> bekam sie Post von ihrem lb. <persName
+                  ref="#P_F">Franz</persName>. Er ist, wie <lb/>sie schreibt, seid <date
+                  when="1945-08">August</date> bei seiner Tante in <placeName ref="#O_Ha"
+                  >Hanover</placeName>
+               <lb/>Die Freude bleibt nie aus auch wenn es noch so viel <lb/>Kummer giebt. Wir
+               wollen hoffen, dass uns der Herrgott auch <lb/>recht bald den so lang ersehnten
+               rechten Frieden schenket! <lb/><span target="#K_Ge">Zuhause is auch noch alles
+                  gesund.</span>
+               <span target="#K_Ar">Vater u. <persName ref="#P_Bä">Bärbel</persName>
+                  <lb/>arbeiten mit Pferden u. Ochsen auf dem Felde</span> u. <span target="#K_KR"
+                  >alles <lb/>macht sich nur Kummer um die Soldaten.</span>
+               <persName ref="#P_TH">Tante <lb/>Hedwig</persName> nicht zu vergessen. <span
+                  target="#K_Ge">Sie ist aber sonst mit <lb/><persName ref="#P_M">Maria</persName>
+                  noch gesund</span> wie mir <persName ref="#P_K">Käthel</persName> schreibt.
+                  <persName ref="#P_K">Käthel</persName> ist <lb/>in <placeName ref="#O_Ka"
+                  >Kammerswaldau</placeName>. Sie war nur 3 Tage fort u. daher <lb/>geht es ihnen
+               wohl noch besser wie uns. Von <persName ref="#P_G">Georg</persName>
+               <lb/>wusste sie noch nichts. Hoffen wir, dass auch von <lb/>Ihm bald mal ein
+               Lebendszeichen kommt.</p>
+            <p>
+               <lb/>Von <persName ref="#P_B">Bruno</persName> haben wir auch noch nichts. Als wir
+               <lb/>vom 1. Treck zuruck kamen bestelte man uns <lb/>Grüsse von Ihm u. sagte, Er wäre
+               im Westen <pb n="4"/><lb/>und auf dem Wege nachhause. Aber man darf <lb/>ja nicht
+               alle glauben was gesagt wird.</p>
+            <p><lb/>Nein <name type="sub" ref="#P_HS">mein lb. Männe</name> habe ich dir wohl für
+               heute <lb/>genug erzählt. Möchte dir ja noch vieles sagen <lb/>vor allem wie gross
+               die Sehnsucht nach dir ist, aber <lb/>vieleicht kannst du dies erraten ja? <span
+                  target="#K_Fe">Will desshalb jetzt <lb/>aufhören und zur Maiandacht gehen</span>
+               u. dort die lb. <lb/>Gottes-Mutter bitten, dass sie uns weiter in ihren <lb/>Schutz
+               nehmen möge u. wir recht bald zu ihren <lb/>glücklichsten Kindenr zälen dürfen.</p>
+            <p><lb/> Bist du bei Gorg gewesen? Grüss bitte wenn du bekante <lb/>trifst. Auch
+                  <persName ref="#P_ElB">Bialucha Elisabeth</persName>. Ebenfals von ihren <lb/>
+               Eltern und <persName ref="#P_K">Käthl</persName>. Sie ist mit einem Polen verheiratet
+               <lb/>und es geht allen gut. </p>
+            <closer><salute><lb/>In der Hoffnung, dass dich <name type="sub" ref="#P_HS">mein lb.
+                     Männe</name>
+                  <lb/>diese Zeilen <span target="#K_Ge">bei bester Gesundheit</span> erreichen
+                  <lb/>und ich recht bald etwas von dir hören darf <lb/>verbleibe ich mit den
+                  herzlichsten Grüssen u. Küssen <lb/>immer</salute>
+               <lb/>deine <signed>Anna</signed>. <salute><lb/>Hrzliechen Gruss und alles Gute auch
+                  von <lb/>Mutti u. allen Bekannten. <lb/>Aufwiedersehn!</salute></closer>
+
+            <postscript rend="side">
+               <ab type="address">A. Stumpe W. Stefanow p. Svoda W. Wroclaw Dol. Slosk</ab>
+
+               <ab>Nachhause geht auch ein Brief mit ab.</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0013">
+            <pb n="1"/>
+            <opener><lb/>Nr. 5 <dateline>Stefanow, den 30.6.46</dateline>
+               <lb/><salute>Mein herzlieber Männe!</salute></opener>
+
+            <p><lb/><span target="#K_Fe">Heute am schönen Sonntagnachmittag</span>
+               <lb/>möchte ich dir für deine lb. Briefe Nr. 5 + 6 <lb/>die mich mit grosser Freude
+               erreichten, <lb/>recht herzlich danken. Viel lieber wäre ich <lb/>ja jezt bei dir
+                  <span target="#K_Fr">um mit dir zu plaudern</span>!</p>
+            <p><lb/>Leider ist aber alles anders als man sichs <lb/>wünscht. <span target="#K_ZW"
+                  >Hier in unserm Stübchen</span> würde <lb/>es dir sicher auch gefallen glaubst du
+               mir? <lb/>würde dich gerne verwöhnen und es dir so <lb/>gemütlich machen, wie du es
+               nur wünsch= <lb/>test. <span target="#K_Ve">Das Essen reichte für dich auch</span>
+               noch mit, <lb/>denn es wächst uns ja im Garten zu. <span target="#K_Ve">Auf Fleisch
+                  <lb/>und der Gleichen müssen wir zwar verzichten</span>
+               <pb n="2"/>
+               <lb/>aber das fält uns garnicht schwer. <span target="#K_Ve">Bisher <lb/>brauchten
+                  wir nie hungern</span> und denke, <lb/>der Herrgott wird auch weiter helfen ganz
+               <lb/>gleich was kommt. <span target="#K_KR">Heute ist ja grosse Wahl</span>. <lb/>Was
+               mag die für uns bedeuten? Na gut, <lb/>dass man nicht alles weis. Du mein Liebling
+               <lb/>sorge dich bitte nicht zu viel um uns. Wenns <lb/>irgend geht, <span
+                  target="#K_Fr">schreibe ich dir wenigstens einmal <lb/>in der Woche</span>. da
+                  <span target="#K_Ar">beim Gärtner wo ich arbeite</span>
+               <lb/><span target="#K_Ve">bekomme ich leider kein Geld</span> aber soviel wird
+               <lb/>schon übrig gemacht. Ach wie gerne würde ich <lb/>alles tun um dich zu erfreuen
+               aber wie kann <lb/>man das nur anstellen? Hoffen wir, dass uns der <lb/>Herrgott
+               recht bald wieder zusammen führt <lb/>dann wollen wir glücklich und froh sein, so
+               <lb/>wie wirs uns immer wünschten gelt Männe?</p>
+            <pb n="3"/>
+            <p><lb/>Heute <span target="#K_Fe">hat Mutti ihren Geburtstag</span>. Dabei
+               <lb/>erinnere ich mich besonders an den <span target="#K_Fr">Anfang der <lb/>schönen
+                  Urlaubstage im Riesengeb</span>. Weist du es <lb/>auch noch? Doktors waren fort
+               nach Brückenberg <lb/>da kamst du mein lb. Herbert und wir konnten <lb/>in deiner
+               schönen Heimat <span target="#K_Fr">unsere Urlaubszeit <lb/>verbringen</span>.
+               Nechste Woche <span target="#K_Fe">hat Tante Hedwig Ge= <lb/>burtstag</span>. Wie
+               würde sie sich freuen, wenn wir <lb/>sie besuchen kämen! Im Februa vor einem Jahr
+               (45) <lb/>war ich mit Veronika <span target="#K_Fr">von Langhelwigsdorf <lb/>aus bei
+                  Ihr</span>, Mia u. Käthel. Übernachteten dort u. <lb/>musten dann weiter <span
+                  target="#K_KR">nach dem Sudetengau flüchten</span>. <lb/>Die Freude war gross aber
+               auch die Sorge um dich. <lb/>Zum Glück konnte ich ihr aber sagen,-auch der
+               <lb/>Muttel durchs Telephon, Vatel war damals <lb/>eingezogen - dass mich die lb.
+               Briefe vom <lb/>3. + 11.10.44 u. ein Brief vom Ober. Schmieberger vom <lb/>15.11.44
+               erreicht hatten u. mir sagten wo du gelandet <lb/>warst.</p>
+            <pb n="4"/>
+            <p><lb/>Bin sehr entteuscht, dass du keine Post erhalten <lb/>hast wie du schreibst.
+               Habe dir <span target="#K_Fr">jede Woch 1. Brief <lb/>abgesand</span> bis die Post
+               gesperrt wurde. Tante <lb/>Hedwig wolt dir auch u. hat dir geschrieben soviel
+               <lb/>ich weiss. Wo mag die Post wohl verloren sein.</p>
+            <p><lb/>Auch von dir habe ich nie wieder etwas gehört. Schwester <lb/>Klärchen war mir
+               Post schuldig. Ihre Anschrift <lb/>habe ich noch auch die Bildchen die du mir san=
+               <lb/>test. Nur die Postsperre war Schuld, dass ich nichts <lb/>von ihr weis. Grüss
+               Sie bitte und wünsch ihr alles Gute <lb/>auch von mir. Ebenfals den Böhm Paul. Seine
+               Frau <lb/>ist auch fort. Sein Bruder Oswald hat jetzt auch <lb/>geschrieben. Auch die
+               Frau ist nicht mehr da.</p>
+            <p><lb/>jetzt eben <span target="#K_KR">fuhr wieder ein langer Zug Flüchtlinge
+                  <lb/>vorbei</span>. es geht noch am laufenden Band. Wann u. <lb/><span
+                  target="#K_KR">ob wir fort müssen ist noch unbestimmt</span>. Darüber <lb/>mache
+               ich mir aber keine Sorge einmal muss sich <lb/>etwas ändern, denn wir wollen uns doch
+               wiedersehn <lb/>nicht wahr Herbert? Der Herrgott ist ja überall bei uns <lb/>also
+               brauchen wir uns auch nicht fürchten.</p>
+            <p><lb/>Wie ich aus deinen lb. Zeilen ersehe, hast du mein <lb/>Liebling in den letzten
+               Jahren viel schlimmes erlebt. <lb/>Ach es ist zu traurig, dass alles so kommen
+               musste! <lb/>Hoffen wir, dass <span target="#K_KR">diese böse Zeit</span> recht bald
+               zu ende <lb/>geht. Bitte ja alle Tage den lb. Gott dass er uns recht <lb/>bald
+               zusammen führt. Jetzt bin ich schon froh, dass <lb/>wir uns Brieflich ein wenig
+               unterhalten dürfen.</p>
+            <p><lb/>Was du da schreibst von Harmanns ist sehr traurig <lb/><span target="#K_KR">Ach
+                  der böse Krieg</span> hat doch in jede Familie grosses <lb/>Leid gebracht.</p>
+            <pb n="5"/>
+            <p><lb/>Für heute nun mein lb. Männe will ich´s <lb/>genug sein lassen in der Hoffnung,
+               dass dich diese <lb/>Zeilen <span target="#K_Ge">gesund und froh</span> erreichen!
+               Mögen sie dir sagen <lb/>dass ich immer in Gedanken und mit allen Guten <lb/>Wünschen
+               bei dir bin. Wie schön müsste es sein <lb/>wenn ich mit diesen Zeilen dir in die Arme
+               fliegen <lb/>dürfte und dir sagen könnte wie sehr ich mich <lb/>auf das Wiedersehen
+               freue! Schade -</p>
+            <p><lb/>Ein Bild von mir lege ich dir bei. Habe alle <lb/>Bilder auch von dir noch
+               erhalten die mir beim <lb/>anschauen viele schöne vergangene Stunden <lb/>zurück
+               rufen!</p>
+            <p><lb/>Jetzt wüsste ich noch so gerne wie es dir geht u. <lb/>was du machst? Dass du
+               lb. Herbert <span target="#K_Ve">mit Essen <lb/>knap bist</span>, tut mir furchtbar
+               weh. <span target="#K_Ve">Viel lieber würde <lb/>ich hungern</span> aber du soltest
+               satt haben.</p>
+            <pb n="6"/>
+            <p><lb/><span target="#K_Ge">Wie gehts dir denn gesundheitlich</span>! Hoffentlich auch
+               <lb/>so gut wie mir. oder hast du noch <span target="#K_Ge">unter den Verunkeln
+                  <lb/>zu leiden</span>?</p>
+            <closer><lb/>Ach, noch so vieles möchte ich von dir wissen. <lb/>Vieleicht kannst du es
+               erraten wie gross die Sehn= <lb/>sucht ist! Jetzt muss ich schnell Schluss machen
+               <lb/>und <span target="#K_Fr">den Brief nach Neumarkt tragen</span> damit er
+               <lb/>dich recht schnell erreicht und dir <salute>alle guten <lb/>Wünsche bringt
+                  verbunden mit den <lb/>herzlichsten Grüssen und Küssen von <lb/>deiner Anna.
+                  <lb/>Aufwiedersehen!</salute></closer>
+            <postscript>
+               <ab><lb/>Alles Gute u. Gruss auch von Mutti <lb/>Mutter Jahnel u. Herr
+                  Erzpriester</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0015">
+            <pb n="1"/>
+            <opener><lb/>Nr. 7 <lb/><dateline>Stefanow, den 20.7.46 </dateline>
+               <lb/><salute>Mein herzlieber Männe!</salute></opener>
+            <p><lb/>Wenn ich heute solch hässliges <lb/>Papier benutze <span target="#K_Fr">um dir
+                  einen Gruss <lb/>zu senden</span>, dann sei mir bitte nicht böse, <lb/>denn hatte
+               noch keine Gelegenheit mir besseres <lb/>zu besorgen und möchte dir aber auch gerne
+               <lb/>mal wieder ein paar Zeilen schreiben.</p>
+            <p><lb/>Leider hörte ich diese Woche nichts von dir <lb/>und wüsste so gerne wie es dir
+               geht und <lb/>was du machst! Bist du mir etwa böse, <span target="#K_ZW">dass
+                  <lb/>ich noch zuhause bin</span>? du hast doch sicher <lb/>meine Post immer
+               erhalten und weist wie <lb/>das so gekommen ist nicht wahr?</p>
+            <p><lb/>Viele Stephansdorfer haben sich schon ge= <lb/>meldet von Westf. her. Sie
+               schreiben dass es <lb/>ihnen gut geht und <span target="#K_Fr">schwärmen von Kino,
+                  <lb/>Tanz und der gleichem</span>. nicht aber alle!</p>
+            <pb n="2"/>
+            <p><lb/>Sind etwa in deiner Stadt <span target="#K_KR">auch schon <lb/>Flüchtlinge
+                  eingetroffen?</span> Ach, die könnte <lb/>ich beneiden, denn dazu möchte ich auch
+               <lb/>gerne zählen! Besser wär es wohl, wenn die ganze <lb/>Sache ein anderes Gesicht
+               bekäme und ich dich <lb/>bald bei mir begrüssen durfte! Unbeschreiblich <lb/>schön
+               müsste das sein! Oder möchtest du nicht zu= <lb/>rück? Hier wird ja sooo viel erzählt
+               aber ich mag <lb/>das alles nicht glauben. Denke doch, der Herrgott wird <lb/>uns
+               schon auf dem rechten Weg zum Wiedersehn <lb/>führen meinst du nicht auch? Er hat uns
+               immer ge= <lb/>holfen und wird uns auch jetzt nicht vergessen, wenn <lb/>wir ihn
+               darum bitten gelt? Bleibe du mir <span target="#K_Ge">nur immer <lb/>recht schön
+                  gesund</span>! Auch ich gebe mir grosse <lb/>Mühe, wieder auf die Beine zu kommen.
+               Hier wird <lb/>schon über eine Woch lang <span target="#K_Ar">überall Getreide gemät
+                  <lb/>und ich habe dabei geholfen</span> bis ich <span target="#K_Ge">ein so
+                  schlim= <lb/>mes Bein bekam</span>, dass ich mich ins Bett legen <lb/>musste. Wie
+               dass kam, weis ich selbst nicht. Es ist <lb/>aber <span target="#K_Ge">bestimmt eine
+                  Vergiftung</span>! Schön ist's nicht, bei <pb n="3"/>
+               <lb/>dieser wärme im Bett zu liegen. Heute schon <lb/>vier Tage. Bin aber froh, dass
+               die <span target="#K_Ge">Schmerzen nach= <lb/>gelassen haben</span> und denke, es
+               wird schon wieder <lb/>gut werden. Jetzt wüsste ich so gerne, was <lb/>du mein lb.
+               Herbert <span target="#K_Fr">zum Wochenende machst</span>?</p>
+            <p><lb/>Darf ich neugierig sein? oder ist es besser wenn <lb/>ich es nicht weis? Hier
+               gibt es wieder mal Männer, <lb/>die ihre frauen vergessen und mit anderen Kinder
+               <lb/>haben. Dort wird dies ja auch nichts neues sein. <lb/>Möchte aber hoffen, dass
+               du nur das tust, was <lb/>du verantworten kannst und du nur immer <lb/>mein lb. guter
+               Mann bleibst. Darf ich das??</p>
+            <p><lb/>Gelt Männe, wir wollen uns keinen unnö= <lb/>tiegen Kummer machen? uns immer
+               recht <lb/>lieb haben und die Andern mögen tun, <lb/>was ihnen gefält! oder anderer
+               Meinung?</p>
+            <p><lb/>Nun möchte ich dir noch die fragen aus deinem <lb/>letzten Brief beantworten!
+               Herr Genieser ist vorie= <lb/>ges Jahr gestorben. Ebenfals die alten Ehepaare
+               <lb/>Krause und Deichsel folgten kurz nach= <lb/>einander.</p>
+            <pb n="4"/>
+            <p><lb/>Die andern Geniesers sind alle fort. <span target="#K_KR">Das Haus <lb/>ist
+                  ausgebrannt</span>. Auch das Gasthaus Lissel, <lb/>Papisch, Bautor u. 2 Scheunen
+               von Peters sind <span target="#K_KR">nur <lb/>Ruienen</span>. Weigelts sind auch
+               fort. Jetzt hat sich <lb/>der Paul gemeldet. Maria war immer in Pitschen <lb/>weis
+               nicht ob Sie noch da sind. Von ihrem Bräuti= <lb/>gam wuste sie noch nichts. Babik
+               Paul schrieb auch! <lb/>Nur Frl. Reli ist spurlos verschwunden ebenfals <lb/>Schaffer
+               Regiena! Herr Schmude hat sich auch <lb/>noch nicht gemeldet auch Wunsch Herbert und
+               <lb/>die Hübner Söhne lassen nichts hören, Berta von <lb/>Lecsch war vorieges Jahr
+               zurückgeblieben. Man hat <lb/>sie <span target="#K_KR">im frühjahr 46
+                  eingesperrt</span> warum? <span target="#K_KR">Der Sohn ist <lb/>gefallen</span>
+               u. seine frau auf der fahrt zur Dora <span target="#K_KR">durch <lb/>Bombenangriff
+                  gestorben</span>. Die andern sind alle mit <lb/>uns im Sudetengau gewesen u. jetzt
+               in Deutschland. <lb/>Mein geliebter Männe! Gestern kam ich ,,----nicht zum <lb/>Schluss,
+               denn frau Kliche u. Schmude Eliesabeth brachten <lb/>wieder Post aus Bruch - <span
+                  target="#K_Fr">da muss unsere Post immer <lb/>geholt werden</span> - u. landeten
+               bei mir.</p>
+            <pb n="5"/>
+            <p><lb/>Leider war von dir mein Liebling nichts dabei <lb/>aber will desshalb nicht
+               traurig sein, <span target="#K_Fr">denn kann <lb/>dir auch nicht immer
+                  schreiben</span>, wenn ich gerne <lb/>möchte. Jetzt ist schon wieder Sonntag zu
+               ende. <lb/><span target="#K_Ar">Mutti ist noch Kinderfreulein</span> bei unserer kl.
+               <lb/>Bärbel. Sie ist schon bald fünf Monate alt und <lb/>will immer viel unterhaltung
+               haben. Uns mangelts <lb/>also nie an langer Weile. Du darfst ihr nicht böse sein,
+               <lb/>wenn sie deinen Brief noch nicht beantwortet hat. In Gedanken <lb/>haben wir
+               dich immer bei uns und alle guten Wünsche <lb/>eilen zu dir. Wenn nur das Wiedersehn
+               nicht mehr all <lb/>zu fern sein möchte! Aus Kammerswaldau hörte ich jetzt
+               <lb/>nichts mehr. Ob da alles fort ist? Wann hast du die lezte <lb/>Post von Tante
+               Hedwig? Weis Sie nicht die Anschrift von <lb/>Käthels Mann? Ach Herbert, <span
+                  target="#K_Fr">konntest du nicht Urlaub haben</span>? <lb/>Genau so gern wie im
+               Juli 42 wäre ich mit dir <span target="#K_Fr">in die Berge <lb/>gefaren</span> und
+               jetzt wüssten wir, wie es allen unsern Lieben <lb/>geht. Wäre das nicht schön? Schon
+               lange dürften wir zusammen <lb/>glücklich sein und doch nur immer in Gedan= <lb/>ken!
+               warum wohl? Wollen aber nicht klagen!</p>
+            <p><lb/>Gelt Liebling, der Herrgott hat es schon gut mit uns <pb n="6"/>
+               <lb/>gemeint. Denke doch, es giebt viel schlimmeres!</p>
+            <p><lb/>Bin schon froh, wenn wieder ein Brieflein von dir <lb/>angeflogen kommt und mir
+               sagt, dass du mein <lb/>lieber Männe gesund bist. Das wünschte ich mir <lb/>immer bis
+               zum frohen Wiedersehn! Mit der lezten <lb/>Post kam auch ein Brief an Pastors - die
+               noch fort sind - <lb/>da schreibt eine frau, dass der <span target="#K_KR">Sohn mit
+                  ihrem Mann <lb/>im R. Lager</span> sei wie ein zurückgekehrter Soldat erzählt.
+               <lb/>Denke dir, 43 wurde der Sohn von Pastors <span target="#K_KR">vermist u. für tod
+                  <lb/>erklärt</span> weil er schwer verwundet war und jetzt lebt <lb/>Er! Vieleicht
+               hören wir von Bruno auch noch einmal etwas! <lb/>Dass <span target="#K_KR">Stumpe
+                  Richard aus Moskau geschrieben</span> hatte <lb/>weist du schon gelt? Auch Marek
+               franz schrieb von da. </p>
+            <p><lb/>Wo mag wohl Georg sein? Grossmutti hatte immer so viel <lb/>sorge um euch Beiden
+               aber sie wird vom Himmel aus uns <lb/>alle nicht vergessen. <span target="#K_Fe">Zu
+                  ihrem Namenstage</span> hätte ich gern <lb/>eine hl. Messe bestelt aber Herr
+               Erzpriester ist doch verreist. <lb/>Hoffe aber, <span target="#K_Ge">dass mein Bein
+                  gut</span> ist und ich wenigstens in die <lb/>Kirch gehen kann. Jetzt ist auch ein
+               Jahr schon unser <lb/>Lehrer Pöpelt tod. für heute mein Liebling will ichs genug
+               <lb/>sein lassen.</p>
+            <closer>In der Hoffnung, dass dich die Zeilen <span target="#K_Ge">gesund <lb/>u. froh
+                  erreichen</span>, <salute>wünscht dir das Beste verbunden mit den
+                  <lb/>herzlichsten Grüssen und Küssen deine Anna. <lb/>Aufwider=
+                  <lb/>sehn!</salute></closer>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0017">
+            <pb n="1"/>
+            <opener><dateline><lb/>Nr. 9 <placeName ref="#O_St">Stephansdorf</placeName>, den <date
+                     when="1946-08-15">15.8.46</date></dateline>
+               <salute><lb/><name type="sub" ref="#P_HS">Mein herzlieber
+               Männe!</name></salute></opener>
+            <p><lb/>Heute möchte ich dir für dein lb. <rs type="letter" key="lost">Brieflein Nr.
+                  12</rs>
+               <lb/>recht herzlich danken. <span target="#K_Ge">Es erreichte mich und <persName
+                     ref="#P_MS">Mutti</persName>
+                  <lb/>bei bester Gesundheit</span> und freue mich, das auch <lb/>von dir lesen zu
+               dürfen. Vor allem aber auch, dass <lb/>du <name type="sub" ref="#P_HS">mein
+                  Liebling</name> immer wieder <span target="#K_Fr">Liebe Menschen findest, <lb/>die
+                  dir deine freizeit verschönern</span>. <span target="#K_Fe">Auch heute ist wieder
+                  <lb/>ein feiertag</span> und du <name type="sub" ref="#P_HS">mein lb.
+                  Herbert</name>, was magst <lb/>du wohl machen? <span target="#K_Ar"><persName
+                     ref="#P_MS">Mutti</persName> muss heute arbeiten</span>. Du etwa <lb/>auch?
+                  <span target="#K_Fr">oder bist du wieder eingeladen?</span>
+               <span target="#K_Ve">Wir haben <lb/>schon manchmal heuriege gespeist</span> und dies
+               immer <lb/>mit der Hoffnung, dass ein Anderer für dich etwas <lb/>Gutes tut. Glaube
+               der Herrgott erfüllt uns unsere <lb/>Wünsche. Unsere grosse Sehnsucht nach dem
+               <lb/>baldigen Wiedersehen kennt er auch und warum <lb/>solte er uns unsere Bitten
+               nicht erfüllen?</p>
+            <p><lb/>Glaube mir Herbert, ich möchte schon lange bei <lb/>dir sein um mit dir freud
+               und Leid zu teilen, <lb/>denn was könnte ich mir noch besseres <lb/>wünschen? Ach
+               möge der Herrgott recht bald <lb/>alles zum Guten lenken! <span target="#K_Fr"
+                  >Schrieb dir damals, <lb/>dass dieser Monat für unsere Reise bestimmt <pb n="2"
+                  /><lb/>ist.</span> Man spricht noch immer davon, aber bestimmt <lb/>hat man noch
+               keinen Tag. Ob ich dann auch zu <lb/>dir darf? <persName ref="#P_FB">frau
+                  Böhm</persName> ist bei ihrem Mann wie sie <lb/>schrieb! Viele schreiben aber,
+               dass sie alles ver= <lb/>suchten, um zu den Angehörigen zu gelangen <lb/>und doch
+               nicht durften weil die Gebiete über= <lb/>fült sind. Und sie glauben sogar bald
+               zurück <lb/>zu dürfen. Wie mir <persName ref="#P_TH">tante Hedwig</persName>
+               schreibt, <lb/>gefält es ihr auch nicht mehr hier. <persName ref="#P_K"
+                  >Käthel</persName> hate <lb/>ja Glück, dass Sie so schnell zu ihrem Manne
+               <lb/>kam. Glaube aber, dass auch für uns die Stunde <lb/>dess Wiedersehens balde
+               kommen wird!</p>
+            <p><lb/>Deine Wünsche will ich dir nach Möglichkeit <lb/>erfüllen. <span target="#K_Fr"
+                  >Das <placeName ref="#O_F">finnland</placeName> Buch ist auch noch da.</span>
+               <span target="#K_KR">Jetzt kamen <lb/>mir auch wieder mal die Briefe in die Hände die
+                  als <lb/>Vermisstenpost von dir zurück kamen.</span> Darin war von <lb/><persName
+                  ref="#P_G">Georg</persName> ein Brief, <persName ref="#P_K">Käthel</persName> 1.,
+                  <persName ref="#P_M">Maria</persName> 1. <persName ref="#P_Bä">Bärbel</persName>
+               3. von deinen lb. Eltern <lb/>3 <persName ref="#P_TH">tante Hedwig</persName> 6,
+                  <persName ref="#P_FH">Haamanns</persName> 1, + <persName ref="#P_L"
+                  >Lielo</persName> 1. <persName ref="#P_GS">G. Schulze</persName>
+               <placeName ref="#O_HS">Halle</placeName> 1. <lb/><persName ref="#P_HGB">Hauptgef.
+                  Brauer</persName> 1. <persName ref="#SK">Schwester Klärchen</persName> 5 und 15
+               von mir. Alle <lb/>sind noch ungeöffnet. <span target="#K_Fr">Auch das Skiabzeichen
+                  in Bronze <lb/>ist da.</span> Ach, ich möchte dir so viel erzählen was ich
+               <lb/>nicht zu Papier bringen kann aber wann wird das <lb/>wohl sein? Hast du denn
+               immer meine Post er= <lb/>halten? denk mal, dein <rs type="letter" key="lost">Brief
+                  Nr. 7</rs> fehlt noch! <lb/>Er müsste eigentlich da sein, wenn er nicht verloren
+                  <pb n="3"/><lb/>wäre. meinst du nicht auch?</p>
+            <p><lb/>Du darfst mir nicht böse sein <name type="sub" ref="#P_HS">lb. Herbert</name>
+               <lb/>wenn ich dieses Blat Papier benutze <lb/>aber <span target="#K_Ve">bisher hatte
+                  ich kein Geld mir <lb/>welches zu kaufen</span> und jetzt fehlte <lb/>die Zeit
+               dazu. <span target="#K_Ar">Arbeiten konnte ich <lb/>bisher noch nicht</span>
+               <span target="#K_Ge">weil mein fuss noch <lb/>zu sehr geschwollen</span> Deshalb
+               schenkte <lb/>mir unsere p. frau die S. <span target="#K_Fr">damit ich dir <lb/>ein
+                  Brieflein senden kann.</span> Sie freut <lb/>sich immer mit mir, wenn ich Post von
+               <lb/>dir habe. Jetzt war Sie paar Tage im Bett <lb/>und <span target="#K_ZW">ich habe
+                  den Haushalt versorgt!</span></p>
+            <p><lb/>Die kleine <persName ref="#P_Bä">Bärbel</persName> macht mir viel freude
+               <lb/>natürlich auch der <persName ref="#P_MS">Mutti</persName>! Besonders <lb/>beim
+               Baden. Sie ist aber auch ein höbsches <lb/>Kind. <span target="#K_KR">Wenn der böse
+                  Krieg nicht wär</span>, <lb/>könnten auch wir schon so ein Kl. <lb/>haben! Meinst
+               du nicht auch? Hier ärgert <lb/>man mich immer und sagt, es hat <lb/>so viele Männer
+               hier! Aber gelt <name type="sub" ref="#P_HS">Liebling</name>
+               <lb/>wir warten bis zum Wiedersehn <pb n="4"/><lb/>und sind dann um so glücklicher!
+               <lb/>oder anderer Meinung?</p>
+            <p><lb/>Jetzt wüste ich noch so gerne, wie <lb/>es dir <name type="sub" ref="#P_HS">mein
+                  lb. Männe</name> geht und <lb/>was du alles machst? Ach, könnte <lb/>ich doch mit
+               diesen Zeilen dir in <lb/>die Arme fliegen! Schade - - </p>
+            <closer><lb/><salute>Bis zum frohen Wiedersehn aber <lb/>wünsche ich dir <name
+                     type="sub" ref="#P_HS">mein lieber Herbert</name>
+                  <lb/>alles erdenkliche Gute und verbleibe <lb/>mit den herzlichsten Grüssen u.
+                  Küssen <lb/>immer</salute>
+               <signed>deine Anna.</signed></closer>
+            <postscript>
+               <lb/>
+               <ab type="salute">Alles Gute und viele liebe <lb/>Grüsse auch von Mutti und
+                  <lb/>Jähnel Mutter. <lb/>Grüsse bitte alle Bekannten.</ab>
+               <ab><lb/>Herr Erzpriester ist erst morgen <lb/>vom Urlaub zurück.</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <!-- Ab diesem Brief werden vermehrt nur noch die Alltagskategorien ausgezeichnet -->
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0021">
+            <pb n="1"/>
+            <lb/>
+            <opener>Nr.12 <dateline>Stefanow, den 6.10.46</dateline>
+               <lb/><salute>Mein herzlieber Männe!</salute></opener>
+            <p><lb/>Heute möchte ich dir einen Sonntagsgruss <lb/>senden! Leider hörte ich die Woche
+               nichts <lb/>von dir aber will nicht traurig sein, denn glau= <lb/>be, du vergisst
+               mich trotzdem nicht gelt? <lb/>Wüsste so gerne, wie es dir geht und was <lb/>du alles
+               machst! Ach, in Gedanken sind wir <lb/>so oft bei dir und wann werden wir uns
+               <lb/>wiedersehn? Wir haben jetzt schon drei <lb/>Tage grosses Theater gehabt so, wie
+               du <lb/>es da sicher nicht erleben kannst!</p>
+            <p><lb/><span target="#K_ZW">Das Dom. hat wieder einen Neuen Ver= <lb/>walter</span> und
+               der böse Alte ist auch noch <lb/>da. Die <span target="#K_Ar">verlangten mich am
+                  freitag <lb/>zur Arbeit</span> mit der Bedrohung, dass <lb/>wir beide in den
+               Keller fliegen, wenn <lb/>ich nicht komme! <span target="#K_Ge">Der Mann von hier
+                  <lb/>ist krank</span> und muss im Bett liegen, <pb n="2"/>
+               <lb/>die frau musste nach Neumarkt und <lb/>die Kinder klein und <span target="#K_Ve"
+                  >Mittags waren <lb/>Kartoffeln aufgeschleudert</span>. <span target="#K_Ar">Ich
+                  wolte <lb/>ihr wie immer bei der Arbeit helfen</span>. <lb/>Vom Bürgermeister
+               hatte ich erlaubnis nur der <lb/>da oben wolte nicht! Unsere frau ging dess=
+               <lb/>halb mit Mutti zur Parole und erklärte, wie <lb/>alles ist. Er sagte, ich darf
+               nur helfen, <lb/>wenn es ganz nötig ist! Sie war grade zu= <lb/>rück, da kam schon
+               Mutti und sagt, wir <lb/><span target="#K_ZW">müssen die Sachen packen und werden
+                  abends <lb/>auf’s Dom. geholt</span>! <span target="#K_ZW">Mutti verpackte alles
+                  schnell </span>
+               <lb/>und als es dunkel war, kam der Wagen. Wir hatten <lb/>grosse Mühe mit dem
+               Aufladen und dann ging <lb/>es fort. Bis zu Sagave kamen wir, dort wur= <lb/>den wir
+               von Polizei u. Bürgermeister zur umkehr <lb/>gezwungen. Es war 10 00 als wir
+               landeten. Die <lb/>Männer zogen nachhause und wir standen alein <lb/>da. <span
+                  target="#K_ZW">Was wir tragen konnten, holten wir in die Stube</span>
+               <lb/>dann regnete es die ganze Nacht und bis heute <pb n="3"/>
+               <lb/>noch. <span target="#K_ZW">Gestern befahl der Verwalter die Möbel <lb/>da zu
+                  lassen</span> und so mit den Sachen zu kommen. <lb/>Wir mussten also <span
+                  target="#K_ZW">wieder alles aus u. umpacken</span>. Als <lb/>alles fast fertig
+               war, kam die Polizei und sagt, <lb/>der habe garnichts zu sagen und wir müssen auf
+               den <lb/>Bürgermeister hören! Jeder befiehlt anders! <span target="#K_ZW">Erst
+                  <lb/>heute konnten wir die Schränke vom Wagen abladen</span>
+               <lb/>und deshalb ist noch alles durcheinander.</p>
+            <p><lb/>Du lb. Herbert kannst dir sicher vorstellen, <lb/>dass es uns hier gar nicht
+               mehr gefallen will, <lb/>gelt? Dazu kommt noch, dass wieder ein trans= <lb/>port von
+               hier abgeht! Heute nachmittag sind <lb/>die ersten Leute nach Bischdorf zur Kontrolle
+               <lb/>gefahren. Dazu zählte auch unser Erzpriester <lb/>mit seiner Schwester worüber
+               wir sehr traurig <lb/>sind. Von Stephansdorf ist aber auser ihnen nur <lb/>eine
+               familie fort gekommen für uns ist noch <lb/>keine Zeit bestimmt! Ach, wenn wir nur
+               nicht <lb/>mehr zu lange hier bleiben brauchten und <lb/>ich bald zu dir oder in
+               deine Nähe könnte!</p>
+            <pb n="4"/>
+            <p><lb/><span target="#K_Ve">Bei dieser Wirtschaft ist es nicht mehr schön
+                  <lb/>hier.</span>
+               <span target="#K_ZW">Hiltner Schmied musste gestern mit familie <lb/>aufs dom.
+                  Kardlau ziehen</span>! Ach, der lb. Gott möchte <lb/>alles bald zum Guten wenden.
+                  <span target="#K_Fe">Jetzt im Rosenkranz= <lb/>monat beten wir alle tage den
+                  Rosenkranz</span> u. glau= <lb/>be die Muttergottes wird unser bitten erhören und
+               <lb/>uns auf dem rechten Wege zusammen führen! Betest <lb/>du auch für mich? Dann
+               brauch ich keine Angst haben, <lb/>von allem, was uns beforsteht gelt? Hilde schrieb
+               mir <lb/>wieder wir <span target="#K_ZW">sollen froh sein, dass wir noch zuhause
+                  <lb/>sind</span>! Hast du schon mal Post von ihr? Sie schreibt <lb/>auch, <span
+                  target="#K_KR">dass Paul aus der Gefangenschaft geschrieben <lb/>hat</span>.
+               Muttis Bruder der <span target="#K_KR">Richard ist in frankreich <lb/>gefangen</span>
+               wie uns eine Karte von der Suchstelle sagt.</p>
+            <p><lb/>Du mein Liebling <span target="#K_KR">bist jetzt schon ein Jahr befreit</span>.
+               <lb/>Hoffentlich dürfen wir auch bald zusammen glücklich <lb/>sein!! <span
+                  target="#K_Ge">Tante Hedwig geht es gesundheitlich nicht gut</span>
+               <lb/>wie Sie mir schrieb. <span target="#K_Ve">Bärbel fehlt es sicher an Geld</span>
+               <lb/>mich zu besuchen! Mir geht es ja auch so es reicht <lb/>nicht mal zum schreiben
+               aus.</p>
+            <closer> Grüsse du lb. Herbert <lb/>alle lb. Verwandten auch von mir mit. <span
+                  target="#K_Ge">Gesundheitlich geht es uns <lb/>gut</span> u- dir mein lb. Männe
+               wünsche ich das Allerbeste. Nimm <lb/>viele lb. Grüsse- auch von Mutti- u. 1000 Küsse
+                  <salute>von <lb/>deiner Anna <lb/>Aufwiedersehen!</salute></closer>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0023">
+            <pb n="1"/>
+            <opener><lb/>Nr. 14 <dateline>Stefanow, den 22.10.46</dateline>
+               <lb/><salute>Mein herzliebster Männe!</salute></opener>
+            <p><lb/>Ein Regentag ist heute und <span target="#K_ZW">wir <lb/>durften zuhause
+                  bleiben</span>. <span target="#K_Ar">Nachmittag geht <lb/>es wieder Kartoffeln
+                  lesen</span> wenn der Regen <lb/>nach lässt. Möchte dir <span target="#K_Fr"
+                  >deshalb jetzt <lb/>schnell eine Gruss senden</span> und dir für <lb/>deinen lb.
+               Brief Nr. 20 recht herzlich dan= <lb/>ken. Du mein Liebling schreibst von
+               <lb/>Sehnsucht nach dem Wiedersehen und mir <lb/>geht es nicht anders. Wie gerne wäre
+               ich <lb/>bei dir! Aber vieleicht dauert es nicht <lb/>mehr all zu lange! Am freitag
+               ist <lb/><span target="#K_KR">wieder ein tranzport von hier ab= <lb/>gegangen</span>.
+                  <span target="#K_KR">Man sagt ja dass wir alle <lb/>raus müssen</span>. Ach, es
+               wird so viel erzählt <lb/>aber nichts darf man glauben.</p>
+            <pb n="2"/>
+            <p><lb/>Na, überlassen wir alles dem Herrgott <lb/>der wird es schon richtig machen
+               gelt? <lb/>Von Bärbel weiss ich leider nichts! <lb/>Wir glaubten immer, sie würde uns
+               <lb/>mal besuchen aber alles Hoffen war <lb/>vergeblich. Nicht einmal geschrieben
+               <lb/>hat sie! <span target="#K_Ve">Vielleicht mangelts ihr an Geld</span>
+               <lb/>denn mir gehts auch so. <span target="#K_Fr">Wolte gerne <lb/>noch an Tante
+                  Hedwig schreiben</span>
+               <lb/>aber es reicht nicht mehr. <span target="#K_Ar">Hoffentlich <lb/>werden wir für
+                  unsere Arbeit bald <lb/>mal bezahlt</span>! Grüsse du doch bitte von <lb/>mir alle
+               lieben Verwandten ja? </p>
+            <p><lb/>Was weisst du lb. Herbert von den <lb/>Lieben in Kammerswaldau? Wie geht <lb/>es
+               eigentlich der Familie taube? <lb/>Wie du mir schreibst, warst du wieder <lb/>mal in
+               Böhlen. Habe tausend dank, <pb n="3"/>
+               <lb/>für deine lb. Grüsse die ich ebenvals <lb/>erwiedere. Wo ist den der Mann von
+               deiner <lb/>Cusine? Gestern traf hier Post ein, <span target="#K_KR">von <lb/>einem
+                  Soldaten aus dem Osten</span>, der <lb/>schon drei Jahre vermisst ist. </p>
+            <p><lb/><span target="#K_KR">Vieleicht ist Bruno auch noch irgendwo!</span>
+               <lb/>Hier hat sich sonst nichts von Bedeutung <lb/>geändert. <span target="#K_ZW"
+                  >Mutti musste heute <lb/>im Bett bleiben</span>. Sie hat überall <lb/>Schmerzen
+               und <span target="#K_Ge">glaube es wird wohl <lb/>Grippe sein</span>. Hoffentlich
+               wird es <lb/>schnell wieder gut!</p>
+            <p><lb/><span target="#K_Fr">Jähnel Mutter war grade hier.</span> Sie <lb/>freut sich,
+               dass sie jetzt nicht mehr <lb/>so weit zu uns hat.</p>
+            <p><lb/>Hermann Mutter <span target="#K_KR">ist am Freitag <lb/>mit nach Deutschland
+                  gereist</span>. <lb/>Wir werden wohl mit zu den letzten <pb n="4"/>
+               <lb/>zählen. Bete nur immer für uns, <lb/>damit wir eine gute Fahrt haben <lb/>und
+               uns dann auch bald <span target="#K_Ge">gesund <lb/>und froh wiedersehen
+                  dürfen</span>! </p>
+            <p><lb/>Jetzt haben ich noch grosse Sorge <lb/>um Mutti. <span target="#K_Ge">Wenn sie
+                  nur recht schnell <lb/>wieder gesund würde.</span></p>
+            <p><lb/>Wie aber geht es dir mein Liebling? <lb/>Bist doch hoffentlich noch auf <lb/>der
+               Höhe ja? Von mir darf ich <lb/>es noch sagen. Wünschte mir <lb/>nur recht bald bei
+               dir zu sein.</p>
+            <closer><lb/>Bis dahin aber nimm die <lb/>allerbesten Wünsche verbunden <lb/><salute>mit
+                  vielen herzlichen Grüssen <lb/>und Küssen von <lb/>deiner Anna <lb/>Viele Grüsse
+                  und alles Gute auch von <lb/>Mutti <lb/>Aufwiedersehen!</salute></closer>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0025">
+            <pb n="1"/>
+            <opener><lb/>Nr.16 <dateline>Stefanow, den 17.11.46</dateline>
+               <salute><lb/>Mein herzlieber Männe!</salute></opener>
+
+            <p><lb/><span target="#K_Fe">Heute am Sonntag Abend</span> möchte <lb/>ich dir <span
+                  target="#K_Fr">wieder einen Gruss senden</span>
+               <lb/>und dir vor allem für dein liebes <lb/>Brieflein Nr. 23, welches mich und
+               <lb/>Mutti <span target="#K_Ge">bei bester Gesundheit</span> erreichte <lb/>recht
+               herzlich danken. freue mich, <lb/>lesen zu dürfen, dass auch du wohlauf <lb/>bist und
+               möchte dir auch im= <lb/>mer das Beste wünschen. Ganz <lb/>besonders heute am 17. des
+               Monats <lb/>denke ich <span target="#K_Fe">an deinen bevorstehenden
+                  <lb/>Geburtstag</span>. Nimm zu diesem tage <lb/>die allerherzlichsten Glück und
+               Segens= <lb/>wünsche und viele 1000 Küsse von <lb/>deiner Anna. Möge dich mein
+               Liebling <pb n="2"/>
+               <lb/>der Herrgott immer schützen vor <lb/>aller Gefahr des Leibes und der Seele
+               <lb/>und uns recht bald die freude dess <lb/>Wiedersehens schenken. Vieleicht darf
+               <lb/>ich <span target="#K_Fe">an deinem Geburtstag</span> schon <lb/>bei dir sein!
+               Ach, ich könnte mir <lb/>nichts schöneres wünschen. Oder <lb/>wirst du an diesen
+               tagen bei deinen <lb/>Cusinen sein? Hier sagen viele, <lb/><span target="#K_KR">dass
+                  wir in einem Monat alle raus <lb/>sein müssen</span>. Also könnte es doch
+               <lb/>möglich sein, dass ich dich mal <lb/>schneller überrasche, als du ahnst
+               <lb/>Würde ich dich damit erfreuen? <lb/>oder bist du da nicht zu sprechen? <lb/>Ich
+               weiss ja noch nicht, wo ich ein= <lb/>mal landen werde! Wenn du aber <lb/>für längere
+               Zeit ausgehst, dann <pb n="3"/>
+               <lb/>wäre es wohl gut, wenn du <lb/>deiner Wirtin hinterlässt, <lb/>wo du zu
+               erreichen bist meinst <lb/>du nicht auch? Ach, freue <lb/>mich schon so lange auf un=
+               <lb/>ser Wiedersehn aber wann und <lb/>wo wird das wohl sein?</p>
+            <p><lb/>Wie ich aus deinen Zeilen sehe, <lb/>ist Tante Hedwig <span target="#K_ZW">auch
+                  nicht <lb/>mehr daheim</span>. Wann ist Sie <lb/>abgereist? und wo wird Sie
+               <lb/>landen? Von der fahrt ist mir <lb/>noch angst. Wenn nur alles gut <lb/>gehen
+               möchte! Der Herrgott hat <lb/>uns ja bisher immer geholfen <lb/>und glaube, er wird
+               auch dies= <lb/>mal alles zum Guten wenden.</p>
+            <pb n="4"/>
+            <p><lb/>Am Sonntag <span target="#K_Fr">konnte ich den Brief <lb/>nicht beenden</span>,
+               denn <span target="#K_Fr">Mutter Jähnel <lb/>war da</span> und da ich noch viel <span
+                  target="#K_Ar">für <lb/>die Arbeit in Schönau</span> vorzubereiten <lb/>hatte,
+               wurde es mir zu spät und <lb/>konnte nicht fertig schreiben. Nun war aber <lb/>zu
+               viel Schnee gefallen und <span target="#K_Ar">wir mussten <lb/>hier arbeiten</span>.
+               Heute erreichte mich auch <lb/>noch dein lb. Brieflein Nr.24 wofür ich <lb/>dir auf
+               das herzlichste danke.</p>
+            <p><lb/>Du mein lb. Männe schreibst <span target="#K_Fr">von <lb/>deinem
+                  Sonntagserlebniss</span> und warst <lb/>am letzten Sonntag vieleicht schon
+               <lb/>mit Tante Hedwig zusammen. Wie <lb/>schade, dass ich nicht auch dort sein
+               <lb/>konnte! Hier giebt es <span target="#K_Ar">alle Tage viel Arbeit</span>
+               <lb/>und der Sonntag vergeht dann immer zu <lb/>schnell. <span target="#K_Fr">Du
+                  musst ausgehen</span>, damit es dir <lb/>nicht langweilig wird gell? Na
+               hoffentlich <lb/>lässt du dich von deinen Kammeraden <lb/>nicht zu sehr
+               verderben!</p>
+            <closer><lb/>Heute mein Liebling muss ich aufhören, denn <lb/>es ist schon spät.
+                  <salute>Alles Gute und viele liebe <lb/>Grüsse u. Küsse sendet dir bis zum frohen
+                  Wiedersehen <lb/>deine Anna</salute></closer>
+
+            <postscript>
+               <lb/>
+               <ab>Vielen dank auch für dein Schreibpapier u. nochmals Gruss von <lb/>Mutti</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0030">
+            <pb n="1"/>
+            <opener><lb/>Nr. 21 <dateline rend="right">Stefanow, den <date when="1947-01-12"
+                     >12.1.47</date></dateline>
+               <lb/>Mein herzlieber Männe!</opener>
+
+            <p><lb/>Das lang ersehnte Brieflein Nr.30 <lb/>vom 16.12.46 und auch die Karte vom
+               <lb/>13.12. <span target="#K_Ge">erreichten mich und Mutti bei <lb/>bester
+                  Gesundheit</span> mit viel Freude. <lb/>Heute zum Sonntag abend möchte ich
+               <lb/>dir dafür recht herzlich danken. <lb/>Auch für das beiliegende Kärtchen
+                  <lb/><span target="#K_Fe">mit den Neujahrsgrüssen</span> und das <lb/>Briefpapier.
+               Du mein Liebling mache <lb/>dir bitte nicht zu grosse Sorgen <lb/>um uns. Wir haben
+               nun schon so lange <lb/>durchgehalten auch wenn’s manchmal <lb/>sehr schlecht ging
+               und denke doch, dass <lb/>wir es mit Gottes Hilfe auch weiter <lb/>schaffen werden!
+               Mag kommen was <lb/>will; wir lassen uns nicht runterkriegen <pb n="2"/>
+               <lb/>denn einmal muss es wieder anders <lb/>werden und wenn ich erst mal <lb/>bei dir
+               sein darf gelt Liebling <lb/>dann werden wir schon den rechten <lb/>Weg finden um
+               glücklich zu sein <lb/> und es uns gemütlich machen <lb/>auch wenn es noch so schwer
+               ist meinst <lb/>du nicht auch? Hilf mir nur immer <lb/>beten, damit der Herrgott
+               unsere <lb/>Bitten und Wünsche recht bald <lb/>erfült ja? Hatte jetzt mal <lb/>wieder
+               einen so schönen traum! <lb/>Du mein lieber Männe warst <span target="#K_ZW">bei
+                  <lb/>mir im Bettchen</span> ach und soooo <lb/>glücklich waren wir beide!
+               <lb/>Kannst du das verstehen? </p>
+            <p><lb/>Schade, dass ich dich nicht festhal= <lb/>ten konnte da wäre ich jetzt
+               <lb/>nicht alein! Leider - - -</p>
+            <pb n="3"/>
+            <p><lb/>Gestern am 11.1 waren es <span target="#K_KR">schon <lb/>drei Jahre, dass du von
+                  mir gehen <lb/>musstest</span>! Und wann werden wir <lb/>uns wiedersehen dürfen?
+               Keiner von <lb/>uns konnte es ahnen, dass es ein Ab= <lb/>schied für eine so lange
+               Zeit sein <lb/>solte! Aber ich bin unserem Herrgott <lb/>dankbar, <span
+                  target="#K_Ge">dass ich dich mein lb. Männe <lb/>wenigstens gesund
+               weiss!</span></p>
+            <p><lb/>Heute sind es schon vier Jahre, dass <lb/>unser Bruno vom Unglück erfasst wurde!
+                  <lb/><span target="#K_KR">Ob er noch zu den Lebenden zählen mag? </span>
+               <lb/>Frau Mies hörte genau so lange nichts <lb/>von ihrem Mann. — <span
+                  target="#K_ZW">Ihr gehörte das Haus</span>
+               <lb/>vor Geppert.— Weiss nicht ob du Sie kennst. <lb/>Sie war immer gut zu mir! Im
+               Mai musste <lb/>Sie mit allen Anderen nach dem Westen. <lb/>Heute habe ich eine Karte
+               von ihrem Mann <lb/>hier. Er ist nun schon in Deutschland. Ach wie <lb/>gross ist die
+               freude, <span target="#K_KR">wenn wieder ein vermisster <lb/>auftaucht</span>! Möge
+               doch der Herrgott <pb n="4"/>
+               <lb/>recht bald alles zum Guten wenden! <lb/>Du mein lb. Herbert <span target="#K_Ar"
+                  >musst zum Nacht= <lb/>dienst wie du schreibst</span>! <span target="#K_Ve">Hast
+                  du bei <lb/>dieser bitteren Kälte wenigstens was <lb/>warmes zum Anziehen?</span>
+               Ach, konnte mir <lb/>längst denken, <span target="#K_Ar">dass dir deine andere
+                  <lb/>Arbeit eingefroren ist</span> aber 12 Std. Wachen <lb/>ist das nicht
+               reichlich lange? <span target="#K_Ar">Ich muss <lb/>auch alle Tage in Arbeit</span>,
+               da weiss ich was <lb/>das Wörtlein kalt bedeutet! — <span target="#K_Ar">Weiden
+                  <lb/>schneiden wir jetzt in Hoglherd</span> -</p>
+            <p><lb/><span target="#K_Ve">Leider ist auch unsere Stube zu kalt und <lb/>die Feurung
+                  zu knapp</span>, um sie warm zu <lb/>bekommen. Frau Pohl sagt immer bei uns kann
+               <lb/> Sie sich Erfrischung holen. Aber alles geht <lb/>vorüber u. so werden auch die
+               Kalten Tage ein <lb/>Ende haben. Dass die Züge eingestellt wurden, <lb/>war ja sehr
+               schade! Und vorher abreisen kon= <lb/>test du nicht wie? Da kam ja auch Tante Hed=
+               <lb/>wig u. Mia <span target="#K_Fe">um die Weihnachtsfreude</span>!</p>
+            <closer><lb/>Grüsse sie bitte u. auch alle lb. Verwandten u. <lb/>wünsche ihnen von mir
+               auch <span target="#K_Fe">alles Gute im <lb/>neuen Jahr</span>. Auch von Mutti viele
+               Grüsse. <lb/>Du mein lieber Männe nimm besonders herzliche <lb/>Grüsse u. Küsse mit
+               den Allerbesten wünschen <lb/>von deiner Anna, Gute Nacht!
+               <lb/>Aufwiedersehen!</closer>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0032">
+            <pb n="1"/>
+            <opener>Nr. 23 <dateline>Stefanow, den 2.2.47</dateline>
+               <salute>Mein herzlieber Männe!</salute></opener>
+
+            <p><lb/><span target="#K_Fe">Wieder haben wir einen Sonntag</span>
+               <lb/>und ich darf nur in Gedanken bei <lb/>dir sein. Was magst du mein Liebling
+               <lb/>wohl machen und wie geht es dir?</p>
+            <p><lb/>Wüsste es so gerne und wäre noch viel <lb/>lieber bei dir aber leider muss ich
+               immer <lb/>noch warten und darf nur mit allen <lb/>guten Wünschen bei dir sein.</p>
+            <p><lb/>Du hast es sicher nicht immer so schön <lb/>wie <span target="#K_Fr">bei deinen
+                  Cousinen in Böhlen</span> gelt? <lb/>Kann es mir vorstellen! Und gerade
+               <lb/>desshalb habe ich grosse Sorge um dich. <lb/>Was machst du jetzt in dieser
+               kalten <lb/>Zeit? <span target="#K_Ar">Du kannst doch sicher nichts
+                  <lb/>arbeiten</span> wie? Oder ist es bei dir nicht <lb/>so kalt? <span
+                  target="#K_Ve">Und wovon lebst du</span>, wenn <pb n="2"/>
+               <lb/>du so lange bummelst? Ach <span target="#K_Ve">hoffentlich <lb/>brauchst du
+                  nicht so frieren</span> wie wir!</p>
+            <p><lb/>Habe recht herzlichen dank, für dein <lb/>liebes Brieflein Nr.33 es <span
+                  target="#K_Ge">erreichte <lb/>mich bei bester Gesundheit</span> und freue
+               <lb/>mich, dass auch du wohl auf bist. <lb/><span target="#K_Ge">Leider muss Mutti
+                  noch das Bett hüten</span>. <lb/>Sie ist <span target="#K_Ge">zu spät zum Arzt
+                  gegangen</span>
+               <lb/>und deshalb dauerts jetzt so lange. <lb/>Die Kälte macht natürlich auch viel
+               <lb/>aus! Bis vor zwei Tagen <span target="#K_Ar">habe ich <lb/>noch alle Tag
+                  gearbeitet</span>. Bei dieser <lb/>Kälte sind jetzt <span target="#K_Ar">nur
+                  wenige Arbeiter <lb/>nötig</span> und ich durfte aussetzen.</p>
+            <p><lb/>Am Freitag sind hier Pferde zur Ver= <lb/>teilung angekommen. Davon waren
+               <lb/>schon 7 im Wagon erfroren und <lb/>noch am gleichen Tag starb eins im
+               <lb/>Stall. Nur gut, dass alles vorüber geht <lb/>und auch der böse Winter ein Ende
+               hat.</p>
+            <pb n="3"/>
+            <p><lb/>Vieleicht wird es im Frühjahr dann <lb/>besser für uns! Es wird auch langsam
+               <lb/>Zeit. Meinst du nicht auch? Schon so viele <lb/>Jahre sind wir getrennt und
+               dürfen <lb/>nicht glücklich sein und doch ist die <lb/>Sehnsucht unbeschreiblich
+               gross!</p>
+            <p><lb/>Wäre so gerne bei dir mein Liebling! <lb/>Wie mir dein liebes Brieflein sagt,
+               <lb/>ist es dir auch nicht gleich, dass du <lb/>alein sein musst gelt? Ach alle
+               <lb/>Tage bitte ich den Herrgott und <lb/>ganz besonders auch heute die <lb/><span
+                  target="#K_Fe">Mutter Gottes an ihrem Feste</span>, dass <lb/>wir uns doch <span
+                  target="#K_Ge">recht bald gesund und <lb/>froh wiedersehen</span> dürfen. Möchtest
+               <lb/>du mir nicht auch dabei helfen? <lb/>Dann wird unsere Bitte sicher <lb/>recht
+               bald erhört werden!</p>
+            <p><lb/><span target="#K_Fr">Wie du schreibst</span>, will <span target="#K_Fr">Tante
+                  Hedwig <lb/>zu Käthel reisen</span>. Hoffentlich klappt <pb n="4"/>
+               <lb/>es, damit Sie in ihren schweren <lb/>Stunden nicht alein ist!</p>
+            <p><lb/>Wann soll denn der kleine Kerl an- <lb/>gemeldet sein? Weisst du es schon?
+               <lb/>Wenn Maria wieder zu Frau Hacke <lb/>kam, wird es Ihr ja auch recht sein,
+               <lb/>denn schon in Seitendorf <span target="#K_Ar">hat sie doch <lb/>gerne da
+                  gearbeitet</span>. Da wird Sie es <lb/>auch dort sicher wieder gut haben.
+               <lb/>Grüsse bitte von mir. Auch alle <lb/>lieben Verwandten. <span target="#K_ZW">In
+                  welcher Gegend <lb/>von Frankreich ist Georg</span>? Mutters Bruder <lb/>meldete
+               sich vom Süden Frankreichs!</p>
+            <p><lb/><span target="#K_KR">Diese Woche schrieb wieder ein Soldat</span>, von <lb/>dem
+               man nichts mehr zu hören glaubte. <lb/>Du mein lieber Herbert aber <span
+                  target="#K_Ge">bleibst <lb/>mir von allem gesund</span> und <lb/>nimmer für heute
+               und wir immer die </p>
+            <closer><lb/>Allerbesten Wünsche verbunden mit <lb/>den herzlichsten Grüssen u. Küssen
+               von <lb/>deiner Anna <lb/>Aufwiedersehen!</closer>
+
+            <postscript>
+               <ab><lb/>Herzlichen Dank auch für dein Briefpapier! Wenn du <lb/>aber <span
+                     target="#K_Ve">mit Geld knapp bist</span>, dann sende mir keins mehr.
+                  <lb/>Alles Gute und Gruss auch von Mutti u. Mutter Jähnel</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0037">
+            <pb n="1"/>
+            <opener><lb/>Nr. 28 <dateline>Stefanów, den 23.3.47</dateline>
+               <lb/>Mein herzlieber Männe!</opener>
+
+            <p><lb/><span target="#K_Fe">Heute am ersten Sonntag im <lb/>Frühling</span> erreichte
+               mich dein liebes <lb/>Brieflein Nr. 38 vom 24.2. wofür ich dir <lb/>noch recht
+               herzlich danken möchte.</p>
+            <p><lb/><span target="#K_Fe">Nach dem am letzten Sonntag noch <lb/>alles hart gefroren
+                  war</span>, sind heute <lb/>schon die ersten Blümchen sichtbar <lb/>geworden. Ach,
+               wie so schnell sich <lb/>manches ändern kann! Wird der <lb/>Frühling auch für uns
+               eine Änderung <lb/>bringen? Könnte mir nichts <lb/>besseres wünschen, als recht bald
+               <lb/>dich mein lieber Herbert wieder zu <pb n="2"/>
+               <lb/>sehn und mit dir glücklich zu <lb/>sein alle tage unseres Lebends!</p>
+            <p><lb/>Wann wird mir dieser Wunsch wohl <lb/>in Erfüllung gehen? Ach möge es <lb/>nicht
+               mehr all zu lang dauern! <lb/>Wie mir deine lieben Zeilen <lb/>sagen, hast du mein
+               Liebling <lb/>auch viel Sorgen gehabt, die wir <lb/>uns sparen konnten, wenn wir
+               <lb/>zusammen sein durften!</p>
+            <p><lb/>dass diese Wagners dir sooo viel <lb/>verlangen konnten, kann ich nicht
+               <lb/>verstehen! Glaubte immer, du <lb/>kontest dirs dort gemütlich <lb/>machen und
+               dich recht wohl fühlen <lb/>aber dein Brief sagt mir das Gegen= <lb/>teil. Diesen
+               Leuten ist es sicher <lb/>noch nicht so ergangen wie uns <pb n="3"/>
+               <lb/>sonst konnten sie dich nicht so <lb/>ausnutzen! Wenn du alles so reichlich
+               <lb/>hattest, dann konnte ich noch <lb/>sorgenfrei mit dir auskommen!</p>
+            <p><lb/>Na, schön ists bestimmt nicht, wenn <lb/>die als deutsche Menschen nicht mehr
+               <lb/>Nechstenliebe besitzen!</p>
+            <p><lb/>Jetzt habe ich aber wieder neue Sorgen <lb/>um dich! <span target="#K_ZW">Wie
+                  magst du nun wohnen?</span>
+               <lb/>und wie kommst du mit allem zurecht, <lb/><span target="#K_Ve">wen du dich alein
+                  versorgen musst?</span>
+               <lb/>Bitte lass es mich auch wissen und <lb/><span target="#K_Fr">schreibe mir
+                  ausführlich darüber</span> ja? <lb/>Leider kann ich nur mit allen guten
+               <lb/>Wünschen und in Gedanken bei dir sein <lb/>aber einmal wird der Herrgott schon
+               <lb/>unser Bitten erhören und dann wollen <lb/>wir nie aufhören glücklich zu sein
+               gelt?</p>
+            <pb n="4"/>
+            <p><lb/>Von mir kann ich nichts von Bedeutung <lb/>berichten. <span target="#K_Ge">Mutti
+                  liegt immer noch <lb/>krank</span>. <span target="#K_Ge">Mir geht es ja
+                  gesundheitlich <lb/>gut</span> und <span target="#K_Ar">an Arbeit mangelts auch
+                  <lb/>nicht</span>. <span target="#K_Ar">Wir arbeiten schon bis 6 Uhr</span>
+               <lb/>und sogar zum Sonnabend gabs nicht <lb/>frei. Gegenwärtig geht die Maschiene
+               <lb/>und mir geht es wie Grossmutti <span target="#K_Ar">man <lb/>hat mich auf den
+                  Schittboden gesteckt</span>. <lb/>Habe es dadurch nicht etwa leicht <lb/>aber
+               trotzdem gibt es viel neidische <lb/>Blicke. Es lässt sich aber nichts ändern,
+               <lb/>denn alles wird vom Chef selbst <lb/>bestimmt. Er ist sehr genau und
+               <lb/>strenge! So mancher bekam schon <lb/>mit der Peitsche und <span
+                  target="#K_Ar
+               ">wer zu lang= <lb/>sam arbeitet, muss Sonntag
+                  <lb/>strafarbeit verrichten</span>.</p>
+            <pb n="5"/>
+            <p><lb/><span target="#K_Ar">Mir machte bisher noch keine <lb/>Arbeit zuviel</span>
+               obwohls nicht immer <lb/>leicht ist, denn bin doch das alles <lb/>nicht gewöhnt aber
+               man konnte <lb/>mir noch nie etwas nachsagen <lb/>und das gefält so manchem gar=
+               <lb/>nicht. Ja, der Hass und der Neid <lb/>unter den paar Leuten ist gross. <lb/>Es
+               ist bestimmt <span target="#K_Ar">nicht schön, mit <lb/>solchn Menschen zu
+                  arbeiten</span>, die <lb/>immer unzufrieden sind und <lb/>nichts wissen, als
+               schimpfen und <lb/>fluchen. Und doch lässt sich trotz <lb/>allem nichts ändern.</p>
+            <p><lb/>Wie soll der Herrgott helfen, <lb/>wenn die Menschen alle so böse <lb/>sind?</p>
+            <p><lb/>die Leute, die dir einreden wollen, <lb/>dass es mir hier gefällt, kann <pb
+                  n="6"/>
+               <lb/>ich nur bedauern, die sollten erst <lb/>mal hier sein und sich überzeugen
+               <lb/>von allem, wies hier ist, dann würden <lb/>Sie bestimmt anders denken.</p>
+            <p><lb/>Und wenn Sie gar sorgen, ich liebe <lb/>einen Andern, dann müssen Sie wohl
+               <lb/>selber so schlecht sein, dass sie es von <lb/>mir denken wie? Du glaubst dies
+               doch <lb/>hoffentlich nicht? Wenn man will, <lb/>dann findet man immer Gelegenheit
+               <lb/>zum Lieben! Aber ich bin dir bisher treu <lb/>geblieben u. möchte auch jetzt
+               keinen <lb/>andern lieben! Wir haben uns doch <lb/>versprochen treu zu sein und
+               wollen <lb/>uns immer lieben u. uns nie betrügen <lb/>gelt Liebling?</p>
+            <p><lb/>Bitten wir alle tage unsern Herrgott, <lb/>dass Er uns recht bald ein <span
+                  target="#K_Ge">gesundes frohes <lb/>Wiedersehen</span> schenken möge damit wir
+               <lb/>dann nie aufhören glücklich zu sein <lb/>gelt?</p>
+            <closer><lb/>Mit diesen Wünschen u. den herzlichsten <lb/>Grüssen und Küssen verbleibe
+               ich <lb/>immer <lb/>deine Anna</closer>
+
+            <postscript>
+               <ab><lb/>Auch Bialucha Bernhard hat seid 3 Jahren, <span target="#K_Fr">den ersten
+                     Brief <lb/>geschrieben</span>. <lb/>Und wo wird Bruno sein? </ab>
+
+               <ab><lb/>Grüsse bitte alle Verwandten. Auch von Mutter viele liebe Grüsse <lb/>denk
+                  mal heute sagte man mir, dass Lissel Werner sich gemeldet hat.</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0040">
+            <pb n="1"/>
+            <opener><lb/>Nr. 30 <dateline>Stefanów, den 4.5.47</dateline>
+               <lb/>Mein herzlieber Männe!</opener>
+
+            <p><lb/><span target="#K_Fe">Sonntag nachmittag ist´s mal <lb/>wieder</span> und zwar
+               der erste im schönen <lb/>Monat Mai. Was magst du mein lieber <lb/>Herbert wohl
+               machen? Ach, ich wäre <lb/>so gerne bei dir um mit dir glücklich <lb/>zu sein und vor
+               allem Freud und Leid <lb/>mit dir zu teilen. Leider ist alles anders <lb/>als man
+               sich´s wünschte und man <lb/>möchte immer und immer wieder <lb/>fragen, warum und
+               wielange soll <lb/>es noch so weitergehen. Aber wer <lb/>weis die richtige Antwort?
+               Deine <lb/>beiden Brieflein Nr. 42 und 43 habe <lb/>ich vor mir liegen und möchte dir
+                  <pb n="2"/>
+               <lb/>vor allem dafür danken.</p>
+            <p><lb/><span target="#K_Fr">Leider schreibst du nichts erfreu= <lb/>liches</span> und
+                  <span target="#K_Ge">bist sogar noch <lb/>krank dazu</span>! Ich wie gerne wäre
+               <lb/>ich bei dir um dich zu verwöhnen <lb/>und dir in all deiner Not zu helfen
+               <lb/>aber warum wohl, müssen wir <lb/>immer noch warten? </p>
+            <p><lb/>Glaube mir ich kann mir <lb/>deine gegenwärtige Lage gut <lb/>vorstellen und
+               wenn ich erst mal <lb/>bei dir sein dürfte, dann hätte <lb/>ich eine grosse Sorge
+               weniger, <lb/>denn die Sorge und der Kummer <lb/>um dich, war mir bisher immer
+               <lb/>der grösste obwohl es mir hier <lb/>vieleicht noch ein Teil schlechter <pb n="3"/>
+               <lb/>geht wie dir! Du kannst dich ja <lb/>leider nicht in meine Lage versetzen,
+               <lb/>auch <span target="#K_Fr">wenn ich es dir auch immer <lb/>wieder schreibe</span>
+               weiss nicht, ob du <lb/>es nicht verstehen wilst oder was <lb/>du für einen Grund
+               dafür hast, dass <lb/>du immer noch glaubst, es liegt an <lb/>mir, dass ich nicht bei
+               dir bin.</p>
+            <p><lb/>Ich habe keine Lust hier zu versauern <lb/>und wenn einer glaubt es ist hier
+               <lb/>schön, dann wäre ich gleich bereit <lb/>mit ihm zu tauschen! </p>
+            <p><lb/>Jeder sehnt sich fort von hier, wenn <lb/>die Lage nicht anders wird! <lb/>Von
+               Westen her, schreiben viele, <span target="#K_ZW">dass <lb/>Sie auf ein baldiges
+                  Wiedersehen in <lb/>der Heimat hoffen</span>. Sogar der Herr Erz= <lb/>priester.
+               Andere aber schreiben, <span target="#K_KR">dass <lb/>Schlesien entgültig geräumt
+                  werden muss.</span>
+               <pb n="4"/>
+               <lb/>davon spricht man ja hier schon <lb/>lange. Auch Hübner Herbert tröstet <lb/>mit
+               der Hoffnung auf ein Wiedersehen <lb/>in diesem Jahr seine Mutter. </p>
+            <p><lb/>Auf vielen dom. Sind schon <span target="#K_Ar">polniche <lb/>Arbeiter von
+                  Westen her eingetroffen</span>. <lb/>Vieleicht trifft bei uns auch bald <lb/>mal
+               Ersatz ein. Wir mussten alle <lb/>bis 1. Mai unsere <span target="#K_Ar">Gärten in
+                  Ordnung <lb/>haben und bebauen</span>, vieleicht doch <lb/>für die Neuen! Ja, wir
+               hoffen und <lb/>warten und keiner weiss das <lb/>Richtige aber auch du mein Liebling
+               <lb/>nicht, wenn du glaubst, <span target="#K_Ar">wir müssen <lb/>zur Arbeit hier
+                  bleiben</span>! </p>
+            <p><lb/>der Herrgott alein weiss alles und <lb/>Er wird es auch richtig machen, wenn
+               <lb/>es an der Zeit ist! darum habe ich <lb/>nur eine Bitte an dich glaube und
+               <lb/>vertraue auf Ihn und vergiss auch <pb n="5"/>
+               <lb/>nicht für uns zu bitten!</p>
+            <p><lb/>dann werden wir uns auch <span target="#K_Ge">gesund <lb/>und froh
+                  wiedersehen</span> dürfen so <lb/>wie wir´s uns schon so lange <lb/>wünschen. </p>
+            <p><lb/><span target="#K_Ge">Mutti geht es schon besser</span> aber gut <lb/>wird´s wohl
+               nicht gleich werden <lb/><span target="#K_Ve">die schlechte Ernährung trägt natürlich
+                  <lb/>viel dazu bei</span>. Unsern Kartengruss <lb/>hast du doch sicher erhalten,
+                  <span target="#K_Fr">wo ich <lb/>dir schrieb</span>, dass Sie nach Breslau
+               <lb/>musste gelt? Sind denn auch die <lb/>fehlenden Briefe eingetroffen?</p>
+            <p><lb/>Waren die etwas noch an Wagners An= <lb/>schrift? Mir fehlt leider noch dein
+               <lb/>Brieflein Nr. 35. Aber jetzt ist das <lb/>kein Wunder, die Post wird von einem
+               <lb/>Polen aus Bruch geholt. Herr Weimann, <lb/>der sonst die Post brachte, musste
+               mit <lb/>seiner Familie auch auf´s Dominium <pb n="6"/>
+               <lb/>ebenso Familie Heimlich. <span target="#K_Ar">Auch <lb/>Herr Mareck muss hier
+                  arbeiten</span>. <lb/><span target="#K_ZW">Wenn nur Wohnung in Ordnung
+                  <lb/>wäre</span> musste Er auch schon mit der <lb/>Familie nach hier. Ja, <span
+                  target="#K_Ar">Arbeit <lb/>giebt es reichlich überall</span> und <lb/>man dürfte
+               nie müde werden.</p>
+            <p><lb/>Bisher mussten wir <span target="#K_Ar">von früh 6 Uhr <lb/>bis abends 1/2 8 Uhr
+                  arbeiten</span>. Natürlich <lb/>wurde es nie püncklich Feierabend. <lb/>Heute früh
+               holte man mich schon <lb/>um 5 Uhr, denn die Uhr ist wieder <lb/>vorgedreht worden
+               also <span target="#K_Ar">kann <lb/>man uns noch länger beschäfti= <lb/>gen</span>.
+               Nebenbei muss aber auch <lb/>Alles andere gemacht werden.</p>
+            <p>
+               <lb/>Du weisst es ja wohl auch, <span target="#K_ZW">was <lb/>zum Haushalt gehört
+                  wenn du <pb n="7"/>
+                  <lb/>Jetzt selber Hausfrau spielen <lb/>musst</span> gelt? Es wäre ja alles nicht
+               <lb/>so schwer, <span target="#K_Ve">wenn man gut essen <lb/>könnte und alles
+                  hätte</span>, was man <lb/>brauch aber Leider !-</p>
+            <p><lb/>Heute wüsste ich noch so gerne, <lb/><span target="#K_Ge">wie es dir geht vor
+                  allem auch ge= <lb/>sundheitlich</span>! Ist es wieder gut <lb/><span
+                  target="#K_Ge">mit deiner Muskelzerrung</span>?</p>
+            <p><lb/>Möcht`s hoffen und bitte dich, <lb/>sein nicht immer gleichgültig! <lb/>Der
+                  <span target="#K_Ge">Arzt holt dich bestimmt <lb/>nicht zu seinem Vorteil in´s
+                  <lb/>Krankenhaus</span> und wenn du erst <lb/>einen Bruch bekommst, dann hast
+               <lb/>du immer Beschwerden die sich im <lb/>Alter besonders bemerkbar machen.
+               <lb/>Also schone dich nur so gut du kannst. <pb n="8"/>
+               <lb/>Für deine Grüsse von Käthel danke <lb/>ich und erwidere sie auf das Herzlichste
+               <lb/>Wir <span target="#K_Fe">wünschen ihr auch alles Gute zu <lb/>Ihrem
+                  Geburtstag</span> und vor allem <lb/>auch, dass der kl. Stammhalter bald
+               <lb/>ankommt und den glücklichen Eltern <lb/>viel Freude macht!</p>
+            <p><lb/>Aus Kammerswaldau habe ich leider <lb/>noch nichts gehört! Bekommen <lb/>deine
+               Cusienen auch nichts aus <lb/>Seitendorf? Ja, <span target="#K_Ve">wenn ich nur
+                  <lb/>Geld hätte</span>, <span target="#K_Fr">würde ich auch öfter
+                  <lb/>schreiben</span>, denn alles kann doch <lb/>nicht verloren gehn!</p>
+            <closer><lb/>Für heute nun mein Liebling will ich´s <lb/>genug sein lassen in der
+               Hoffnung, <lb/><span target="#K_Ge">dass dich diese Zeilen gesund und <lb/>froh
+                  erreichen</span>, wünscht dir das <lb/>Beste mit den herzlichsten Grüssen <lb/>und
+               Küssen immer <lb/>deine Anna</closer>
+
+            <postscript>
+               <ab><lb/>Auch von Onkel Richard - Muttis Bruder - soll ich grüssen. <lb/>Er fragt, ob
+                  du nicht mal <span target="#K_Fr">in Urlaub kommen darfst</span>!</ab>
+
+               <ab><lb/>Auch von Mutti alles Gute u. viele herzliche Grüsse <lb/>Liebste Grüsse auch
+                  alle Verwandten von uns, Aufwiedersehen!</ab>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0042">
+            <pb n="1"/>
+            <opener><lb/>Nr. 32 <dateline>Stefanów, den 26.5.47</dateline>
+               <salute><lb/>Mein herzlieber Männe!</salute></opener>
+
+            <p><lb/><span target="#K_Fe">Das schöne Pfingstfest</span> möchte ich <lb/>nicht vorüber
+               gehen lassen, <span target="#K_Fr">ohne dir einen <lb/>Gruss zu senden</span>. Leider
+               dürfte ich noch <lb/>nicht bei dir sein! Ach, ich könnte mir <lb/>nichts besseres
+               wünschen als dich entlich <lb/>bald bei mir zu haben oder bei dir zu <lb/>sein in
+               deinen Armen mich geborgen <lb/>zu wissen und alles andere vergessen, <lb/>was das
+               Leben so sorgenschwer macht!</p>
+            <p><lb/>Ach, wann wird mir wohl dieser lang <lb/>ersehnte Wunsch in Erfüllung gehn?
+                  <lb/><span target="#K_Fe">Am Pfingstfest 40</span> als wir uns nach Jahren
+               <lb/>wieder sahen, fühlte ich mich so zu dir <lb/>hingezogen, dass ich glaubte, nur
+               du <pb n="2"/>
+               <lb/>kannst für mich der richtige Mann <lb/>sein. Auch du lb. Herbert warst nur
+               <lb/>gut zu mir. Heute sind schon 3 Jahre <lb/>und 5 Monate vergangen <span
+                  target="#K_Fe">seid dem <lb/>tage, an dem wir uns die Hand zum <lb/>Bund für´s
+                  Leben reichten</span>. Ach, wie <lb/>glücklich könnten wir sein, wenn du <lb/>seid
+               dem immer bei mir sein konntest! <lb/><span target="#K_KR">Warum musste dieser böse
+                  Krieg uns <lb/>trennen?</span> Und warum werden wir <lb/>hier so fest gehalten und
+               dürfen nicht <lb/>fort? Ja, warum stelt uns der Herrgott <lb/>eine solche
+               Gedultsprobe?</p>
+            <p><lb/>Wir haben uns aber Liebe und Treue <lb/>versprochen in Freud und Leid in
+               <lb/>Glück und Not. deshalb mein Liebling <lb/>dürfen wir nicht verzagen. der
+               Herrgott <lb/>schickt uns diese Kreuz. Er <lb/>wird es uns auch abnehmen, wenn <pb
+                  n="3"/>
+               <lb/>Er es an der Zeit findet aber wir <lb/>müssen es geduldig tragen.</p>
+            <p><lb/>Einmal muss es ja für uns auch wieder <lb/>besser werden, deshalb mein lieber
+               guter <lb/>Männe bitte ich dich von ganzen <lb/>Herzen, schlage dir doch deine
+               zweifelhaften <lb/>Gedanken aus dem Kopf habe <lb/>mehr Gottvertrauen und Glaube mir,
+               <lb/>dass ich nur immer den einen Wunsch <lb/>habe, mit dir glücklich zu sein!</p>
+            <p><lb/>Mein Liebling wenn du Sehnsucht kennst, <lb/>dann weisst du was ich leide. du
+               <lb/>bist für mich der ganze Inhalt des Lebens <lb/>dich würde ich doch nicht alein
+               lassen <lb/>in Not und Sorge, wenn ich zu dir <lb/>dürfte! Ich müsste ja ein ganz
+               sonder= <lb/>bares Menschenkind sein, wenn ich <lb/>mir hier den sorgenvollen Hof vor
+               <lb/>meinem lieben Mann vorziehen würde. <lb/>Oder glaubst du wirklich noch immer <pb
+                  n="4"/>
+               <lb/>dass es meine Schuld ist, wenn ich <lb/>hier sitze und nich bei dir bin? <lb/>du
+               schriebst mal, dass du hörtest, <span target="#K_KR">die <lb/>Ewakuierung sei
+                  freiwillig</span>. Weisst du <lb/>Herbert, wenn das der fall wäre, dann <lb/>wäre
+               ich schon vorieges Jahr bei dir <lb/>eingetroffen und hätte mir bisher <lb/>schon
+               viele Sorgen sparen können.</p>
+            <p><lb/>dass ich mich mit meiner grössten <lb/>Sorge an Tante Hedwig wandte ist <lb/>dir
+               bekannt gelt? Sie schrieb mir nur <lb/>zurück, von deiner Not was ich ja so gut
+               <lb/>verstehe. denn ich weiss wie sehr du mir <lb/>fehlst und könnte ohne dich nie
+               mehr <lb/>froh sein. Tante Hedwig glaubt, wenn <lb/>ich unsern Cheff bitte, dann
+               würde er <lb/>mich fahren lassen! Ach, wenn Ihr wüsstet <lb/>wie deutschfeindlich Er
+               ist, dann könntet <lb/>Ihr verstehen, wie erfolglos jeder Versuch <lb/>ist u. wie
+               sehr Er sich freut wenn wir in <lb/>Sorge leben. Nur eine Hoffnung habe ich,
+               <lb/>dass wir ja doch alle fort kommen u. deshalb <lb/>will ich alles geduldig
+               tragen.</p>
+            <closer>dich aber mein <lb/>lb. Herbert bitte ich verzage nicht vielleicht sehn wir uns
+               mal <lb/>schneller als du es ahnst. <salute>Für heute nimm die herzlichsten Grüsse
+                  <lb/>u. Küsse mit den liebsten Wünschn von deiner Anna u. Mutter
+                  Aufwiedersehen!</salute></closer>
+         </div>
+      </body>
+   </text>
+   <text>
+      <body>
+         <div type="letter" xml:id="LB_01048_0044">
+            <pb n="1"/>
+            <opener><lb/>Nr. 34 <dateline>Stefanow, den 23.6.47</dateline>
+               <salute><lb/>Mein herzlieber Männe!</salute></opener>
+
+            <p><lb/>Soeben bin ich erwacht und wie immer sind <lb/>meine Gedanken bei dir. Möchte so
+               gerne wissen, <lb/>wie es dir geht, was du machst und vor allem, <lb/>warum du
+               garnichts von dir hören lässt! <lb/>Mache mir sooo viel Sorgen um dich mein Liebling
+               <lb/>ach, wenn ich nur bald bei dir sein dürfte! <lb/>Könnte dir dann vieleicht auch
+               so manchen <lb/>Kummer abnehmen gelt? Ich weiss, wie schwer <lb/>es für dich ist und
+               du kannst es vieleicht auch <lb/>verstehen, was ich durch unsere Trennung leide?
+                  <lb/><span target="#K_Fr">Leider mangelt es mir sehr an Zeit um dir <lb/>öfter mal
+                  zu schreiben.</span></p>
+            <p><lb/>Bin seid dem 4.6. in Neumarkt <span target="#K_Ar">bei dem Buch= <lb/>halter im
+                  Haushalt helfen</span> und <span target="#K_ZW">kam gestern <lb/>abend wieder mal
+                  nachhause</span>. <span target="#K_ZW">Keinen abend <lb/>kam ich vor 12 Uhr in’s
+                  Bett</span> und <span target="#K_Ar">den ganzen <lb/>tag viel Arbeit im Haus und
+                  Garten</span> das macht <lb/>müde! <span target="#K_Fr">Heute muss ich nach
+                  Bruch</span> wir müssen <lb/>alle einen Ausweis haben. Wie man sagt, haben
+               <lb/>sich zu viel P. über die Grenze geschmugelt. <lb/>Na, vieleicht sind wir bald
+               bei den glücklichen, <lb/>die fort dürfen, denn lange genug warten <lb/>wir schon
+               darauf! Einmal geht jeder Wunsch in <lb/>Erfüllung. Jetzt wartete ich sehnsüchtig auf
+               ein <lb/>Brieflein von dir mein Liebling und nun <lb/>überreichte es mir Herr Hauel.
+               Nr.46 war es <pb n="2"/>
+               <lb/>wofür ich dir danke und was mich leider nur <lb/>für kurze Zeit erfreute. der
+               Inhalt fordert viele <lb/>Tränen, die nicht nachlassen wollen!</p>
+            <p><lb/>Warum, warum frage ich mich immer! Ja, warum <lb/>denkt mein lieber Mann sooo
+               schlecht von mir <lb/>warum glaubt mir mein Herbert nicht? <lb/>Ich habe dich noch
+               nie belogen und werde es auch <lb/>niemals tun. Wenn ich aber freiwillig hier
+               <lb/>bliebe so wie du dich scheinbar überreden lässt, dann <lb/>wäre ich eine grosse
+               Lügnerin und nicht wart deine <lb/>frau zu sein und du hättest dann Grund, dich
+               <lb/>scheiden zu lassen. An mir liegt es nicht, dass <lb/>ich hier sitzen muss! Und
+               wenn ich das schönste <lb/>Schloss hier besitzen würde, auch dann würde <lb/>ich auf
+               alles verzichten und zu dir kommen, denn <lb/>du bist mir alles das kannst du mir
+               glauben!</p>
+            <p><lb/>Wir gehören zusammen um glücklich zu sein und <lb/>freud und Leid zu teilen.
+               Weshalb solte ich mich <lb/>freiwillig von dir getrennt halten und noch dazu
+                  <lb/><span target="#K_KR">hier in dieser Gefangeschaft</span>? Wenn du nur
+               <lb/>wüsstet, wie ich unter unserer Trennung <lb/>leide, dann würdest du verstehen,
+               wie sehr ich mich <lb/>nach dir sehne. denn mir macht es nicht spass, <lb/>dich dort
+               in Not und Kummer zu wissen. Ich <lb/>habe ja die selben Sorgen wie du und noch viel
+               <lb/>grössere dazu. die Verwandten brauchst du nicht <lb/>belügen. den kannst du
+               ruhig die Wahrheit schreiben <lb/>Mir liegt nichts daran, dass ich hier sitze und
+               <lb/>wer dir das ausreden will, der soll mal hier <lb/><span target="#K_ZW">auf das
+                  dom. kommen u. sich davon überzeugen</span>, <lb/>dann wird er sehen, wie schön’s
+               hier ist! Jeder sagt <lb/>lieber heute fort als morgen und wenn wir alles <pb n="3"/>
+               <lb/>stehen lassen müssten. Bitte glaube mir oder überzeuge <lb/>dich so gut du
+               kannst. <span target="#K_ZW">Vieleicht trifst du <lb/>Stephansdorfer</span> wenn du
+               Bärbl besuchst den die <lb/>letzen sind in thüringen gelandet. Ist Bärbel <lb/>nur
+               alein oder mit den Eltern u. Geschwistern? Grüsse <lb/>die bitte von uns. Warum
+               besucht Sie uns nicht einmal? <lb/>Nun noch mal zu deinem schönsten Thema der
+               <lb/>Scheidung! Sag’ mal Herbert, wilst du denn nicht <lb/>ablassen von diesen
+               schlechten Gedanken?</p>
+            <p><lb/>Ich habe es dir schon mal geschrieben, dass ich dich <lb/>niemalsfrei geben
+               würde du bist mein Mann und <lb/>gehörst nur mir ! Leiden wir denn nicht schon ge=
+               <lb/>nug unter der Trennung? Jetzt wo alle sagen und <lb/>schreiben, dass wir bald
+               fort kommen. willst du <lb/>dich scheiden lassen? du bist doch ein Christ da darfst
+               <lb/>du auch deine Pflichten nicht vergessen. der Herr= <lb/>gott hatt uns jetzt
+               schon schwer genug gestraft <lb/>Und nun möchtest du noch Ehebrecher werden <lb/>und
+               noch viel schwerere strafen auf dich laden <lb/>wie? Von der Welt schaffen wie du
+               schreibst, <lb/>das denkst du dir scheinbar auch sehr leicht! <lb/>Wir sind doch
+               Menschen und keine tiere bei <lb/>den mit dem Tod das Leben aus ist!</p>
+            <p><lb/>Herbert ich bitte dich lass den Kopf nicht <lb/>hängen. Gott vergisst die Seinen
+               nicht. Er wird <lb/>uns aus unserer grossen Not auch helfen. Wenn du aber
+               <lb/>Ehebrecher werden wilst und mich mein Leben lang ins <lb/>Unglück stürzen wilst,
+               dann kannst du bestimmt <lb/>dafür kein Lohn empfangen. Wenn du es auch vorüber=
+               <lb/>gehend besser haben könntest, so würdest du doch bestimmt <lb/>niemals dein
+               Leben lang restlos glücklich sein können, <lb/>so wie wir es uns wünschten.</p>
+            <pb n="4"/>
+            <p><lb/>Ich bitte dich nochmals zweifle nicht mehr am Glauben und <lb/>dann wirst du
+               sehen, dass die der Herrgott auch die Gnade <lb/>schenken wird, auszuhalten bis zum
+               frohen Wiedersehen!</p>
+            <p><lb/>Wir sind beide schwer geprüft aber wenn wir alles aus Liebe zum <lb/>Herrgott
+               leiden, dürfen wir dann bestimmt um so glücklicher <lb/>sein. Bleibe du mein lb.
+               Herbert, so wie du es mir am traualtar <lb/>versprochen hast, dann wird uns auch der
+               Herrgott zusammen= <lb/>führen und uns glücklich sein lassen, in einer guten Ehe u.
+               Christ= <lb/>lichen Familie. dies ist immer mein Wunsch u. wenn du um das
+               <lb/>gleiche bittest, dann werden wir bestimmt nicht unerhört bleiben!
+               <lb/>Grossmutti erzählte mir mal, wie lange und wie sehr deine <lb/>lb. Mutter zum
+               Herrgott bitten musste, <span target="#K_ZW">bis Er ihr entlich ihr erstes <lb/>Kind
+                  meinen lb. Herbert schenkte</span> u. wie gross dann die freude war!</p>
+            <p><lb/>Ach, wenn du doch auch ein klein wenig von dem grossen Glauben deiner <lb/>lb.
+               Mutter geerbt hättest u. als ganzer Christ durch diese schwere Zeit <lb/>gehen
+               möchtest dann dürfen wir am Ende unseres Lebends bestimmt <lb/>mit unsern lb.
+               Entschlafenen wiedersehn feiern! Wenn du aber als <lb/>Ehebrecher oder Selbstmörder
+               dein Leben enden wilst, dann machst <lb/>du den Herrgott u. deinen Lieben genau so
+               wenig freude wie mir!</p>
+            <p><lb/>Nun mein lb. Herbert will ich´s genug sein lassen für heute. <lb/>es ist
+               inzwischen abend u. spät geworden. <span target="#K_ZW">Ich bin aber noch
+                  <lb/>zuhaus</span>. <span target="#K_Ar">Musste nachmittag Erd- u. Johanesbeeren
+                  pflücken</span> u. soll <lb/>erst morgen wieder nach Neumarkt. <span
+                  target="#K_ZW">dort wird nechste Woche das <lb/>2. Kind erwartet</span> u. <span
+                  target="#K_Ar">werde vieleicht noch etwas helfen müssen</span>.</p>
+            <p><lb/>Es ist nicht leicht für mich, so sehen zu müssen, wie glücklich diese
+               <lb/>Menschen sind u. wir müssen noch auf das alles verzichten. Ach, du <lb/>kannst
+               es dir nicht vorstellen, wie mir zu Mute war als ich die ersten <lb/>deutschen
+               Stimmen vom Radio vernahm! Ich möchte manchmal ver= <lb/>zweifeln. Es wäre doch
+               schön, wenn wir zusammen sein dürften <span target="#K_ZW">u. ich <lb/>alles für dich
+                  sorgen u. schaffen könnte</span>! Aber warum hält man <lb/>uns nur so lange so
+               fragt sich manche andere frau auch hier, die den <lb/>Mann in deutschland hat! <span
+                  target="#K_Fe">Morgen hat unser Cheff Hochzeit</span>. Vieleicht <lb/>wird Er
+               durch seine frau etwas besser. Es ist ja doll zugegangen, in <lb/>den tagen wo ich in
+               Neumarkt war. frau Schade, Geratmann Paul <lb/>u. noch Q Andere waren eingespeert.
+               Ach, u. noch vieles mehr.</p>
+            <closer>Mutti lässt grüssen u. wünscht alles. <lb/><salute>Heute nun mein Liebling u.
+                  immer wünsch ich dir das Allerbeste u. verbleibe mit den herlichsten <lb/>Grüssen
+                  u. Küssen bis zum frohen Wiedersehen deine stehts in Gedanken bei dir weilende
+                  Anna</salute></closer>
+         </div>
+      </body>
+   </text>
+</TEI>
